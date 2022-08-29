@@ -108,6 +108,28 @@ After executing all the SQL, we've got the data successfully imported:
 
 > This is a nice feature of pgAdmin: if your query returns a geometry column, you can view the results on a map using the _Geometry Viewer_ tab of the results section.
 
+### Querying the imported data
+
+We can then use some SQL to query the toilets.
+
+If we want to see the features for one particular toilet, we could use:
+
+```sql
+SELECT features.name FROM toilet_features JOIN features ON features.id = toilet_features.feature_id WHERE toilet_id = 1432;
+```
+
+Or the possible payment methods:
+
+```sql
+SELECT payment_methods.name FROM toilet_payment_methods JOIN payment_methods ON payment_methods.id = toilet_payment_methods.payment_method_id WHERE toilet_id = 1432;
+```
+
+Or simply the owner of a toilet:
+
+```sql
+SELECT toilets.description, toilets.address, toilet_owners.name FROM toilets JOIN toilet_owners ON toilet_owners.id = toilets.toilet_owner_id WHERE toilets.id = 1432;
+```
+
 ---
 
 ## Open to-do's
