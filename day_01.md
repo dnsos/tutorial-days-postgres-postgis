@@ -6,6 +6,8 @@ In order to make the tutorial days a bit more challenging, I decided to split th
 
 ![Schema for the Berlin public toilets database](/images/public_toilets_schema.png)
 
+> _Learning_: in order to establish a many-to-many relationship, we need an extra association table.
+
 ---
 
 ## Open to-do's
