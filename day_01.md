@@ -146,4 +146,6 @@ Let's see if we can manage the update anyway!
 
 ### Migration
 
-...
+### First idea
+
+Probably, I will need to import the free toilet dataset into a temporary table as well, then play with [PostgreSQL pattern matching](https://www.postgresql.org/docs/current/functions-matching.html) (POSIX regular expressions?) to find the toilets in my `toilets` table.
