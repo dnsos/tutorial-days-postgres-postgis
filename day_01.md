@@ -142,6 +142,14 @@ The city has released [an XLSX file with the 50 toilets that are part of the pro
 
 But, the _Standort_ column actually contains the content that we have imported into our `address` column. Unfortunately, they have appended text such as "hinter Mittelweg" or "ggü. Schöneicher Str.". This helps humans contextualize the location, but makes it less machine-processable. It's now harder for us to connect the toilet to our own `toilets` table.
 
+Find here a snippet from the free toilets dataset:
+
+|Standort                                                       |Bezirk                    |Typ                                |Aufbau  |
+|---------------------------------------------------------------|--------------------------|-----------------------------------|--------|
+|Klausenerplatz ggü. 23 Mittelinsel vor Spandauer Damm          |Charlottenburg-Wilmersdorf|Ein Platz Mit kostenfreiem Pissoir |17.08.20|
+|Hempelsteig hinter 1A ggü. Rückseite U-Bhf. Ruhleben           |Charlottenburg-Wilmersdorf|Ein Platz Ohne kostenfreies Pissoir|30.08.19|
+|Hohenzollerndamm vor Rheinbabenallee (Roseneck, Hundekehlestr.)|Charlottenburg-Wilmersdorf|Ein Platz Ohne kostenfreies Pissoir|26.08.19|
+
 Let's see if we can manage the update anyway!
 
 ### Migration
