@@ -106,10 +106,12 @@ After executing all the SQL, we've got the data successfully imported:
 
 ![Zoomed-out map of Berlin's public toilets](/assets/images/berlin_toilets_map.png)
 
+> This is a nice feature of pgAdmin: if your query returns a geometry column, you can view the results on a map using the _Geometry Viewer_ tab of the results section.
+
 ---
 
 ## Open to-do's
 
 - [x] setup database (+ install Postgis)
-- [ ] import file (and split information into respective tables)
+- [x] import file (and split information into respective tables)
 - [ ] add indexes? Where is it necessary? Where does it make sense?

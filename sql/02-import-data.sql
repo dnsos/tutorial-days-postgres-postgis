@@ -118,3 +118,26 @@ SELECT
 	(SELECT id FROM features WHERE name = 'Urinal')
 FROM toilets_temp
 WHERE toilets_temp."hasUrinal" = 1;
+
+-- Similarly, we can insert data for the payment methods:
+
+INSERT INTO toilet_payment_methods (toilet_id, payment_method_id)
+SELECT
+	(SELECT id FROM toilets WHERE toilets.wall_id = toilets_temp."LavatoryID"),
+	(SELECT id FROM payment_methods WHERE name = 'Münzen')
+FROM toilets_temp
+WHERE toilets_temp."canBePayedWithCoins" = 1;
+
+INSERT INTO toilet_payment_methods (toilet_id, payment_method_id)
+SELECT
+	(SELECT id FROM toilets WHERE toilets.wall_id = toilets_temp."LavatoryID"),
+	(SELECT id FROM payment_methods WHERE name = 'NFC')
+FROM toilets_temp
+WHERE toilets_temp."canBePayedWithNFC" = 1;
+
+INSERT INTO toilet_payment_methods (toilet_id, payment_method_id)
+SELECT
+	(SELECT id FROM toilets WHERE toilets.wall_id = toilets_temp."LavatoryID"),
+	(SELECT id FROM payment_methods WHERE name = 'Berliner Toiletten-App')
+FROM toilets_temp
+WHERE toilets_temp."canBePayedInApp" = 1;
