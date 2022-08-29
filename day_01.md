@@ -150,6 +150,14 @@ Find here a snippet from the free toilets dataset:
 |Hempelsteig hinter 1A ggü. Rückseite U-Bhf. Ruhleben           |Charlottenburg-Wilmersdorf|Ein Platz Ohne kostenfreies Pissoir|30.08.19|
 |Hohenzollerndamm vor Rheinbabenallee (Roseneck, Hundekehlestr.)|Charlottenburg-Wilmersdorf|Ein Platz Ohne kostenfreies Pissoir|26.08.19|
 
+Taking, for instance, the second row, we can actually find the toilet in our database with a query such as this:
+
+```sql
+SELECT * FROM toilets WHERE address ILIKE '%Hempelsteig hinter 1A%';
+```
+
+> Of course, we need to do the pattern matching a bit differently for our data migration as this is a manual query.
+
 Let's see if we can manage the update anyway!
 
 ### Migration
