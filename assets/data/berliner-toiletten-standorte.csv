@@ -1,0 +1,441 @@
+﻿LavatoryID;Description;City;Street;Number;PostalCode;Country;Longitude;Latitude;isOwnedByWall;isHandicappedAccessible;Price;canBePayedWithCoins;canBePayedInApp;canBePayedWithNFC;hasChangingTable;LabelID;hasUrinal;FID
+Wall_101003;Toilette Ottmachauer Steig (oberhalb Badestelle Ostufer);Berlin;Krumme Lanke, Quermatenweg   (0-24 Uhr);;14109;Deutschland;13,240574813;52,453581173;1;0;0,00;0;0;0;0;5;0;269
+Wall_112911;Toilette Uferweg ;Berlin;Schlachtensee , Am Schlachtensee ggü. 145  (0-24 Uhr);;14129;Deutschland;13,1992287644287;52,4365068880875;1;0;0,00;0;0;0;0;5;0;
+Wall_115753;Toilette Am Kiesteich 50;Berlin;Spektepark   (0-24 Uhr);;13589;Deutschland;13,1648593254089;52,5488398803196;1;0;0,00;0;0;0;0;5;0;
+Wall_116738;Wall CT, Hubertusdamm;Berlin;Hubertusdamm ggü. 7 (0-24 Uhr);;13125;Deutschland;13,4711982596938;52,615670613826;1;1;0,50;1;1;1;1;1;1;868
+Wall_116739;Wall CT, Lindenufer;Berlin;Lindenufer ggü. 10 (0-24 Uhr);;13597;Deutschland;13,2077640060379;52,537351114776;1;1;0,50;1;1;1;1;1;0;738
+Wall_116747;Wall CT, Dubliner Str.;Berlin;Dubliner Str.   (0-24 Uhr);;13349;Deutschland;13,3467597533333;52,5605417184784;1;1;0,50;1;1;1;1;1;0;790
+Wall_116752;Wall CT, Friedhof Eythstr., Eythst.;Berlin;Friedhof Eythstr., Eythst. 1-25 (7-19 Uhr);;12105;Deutschland;13,3664741598498;52,459607642313;1;1;0,50;1;1;1;0;1;0;716
+Wall_118285;Wall CT, Weberwiese, Marchlewskistr.;Berlin;Weberwiese, Marchlewskistr. ggü. 16 (0-24 Uhr);;10243;Deutschland;13,4427793052511;52,5160934953208;1;1;0,50;1;1;1;0;1;1;674
+Wall_118286;Wall CT, Simplonstr.;Berlin;Simplonstr.   (0-24 Uhr);;10245;Deutschland;13,4655841638968;52,5045811099071;1;1;0,50;1;1;1;1;1;1;671
+Wall_118295;Wall CT, Besselpark, Besselstr.;Berlin;Besselpark, Besselstr.   (0-24 Uhr);;10969;Deutschland;13,391282801748;52,5041142935016;1;1;0,50;1;1;1;1;1;1;684
+Wall_11952;Toilette Rüdesheimer Str.;Berlin;Rüdesheimer Platz 6 (0-24 Uhr);;14197;Deutschland;13,314755;52,473363;1;0;0,00;0;0;0;0;4;0;207
+Wall_11953;Toilette Leuthener Str.;Berlin;Leuthener Platz , Naumannstr. (0-24 Uhr);;10829;Deutschland;13,363288;52,481146;1;0;0,00;0;0;0;0;4;0;258
+Wall_119670;Toilette Bulgarische Str.;Berlin;Treptower Park, Weltspielplatz/Alt-Treptow   (7-22 Uhr);;12435;Deutschland;13,4800560474389;52,4855187228924;1;0;0,50;0;0;0;0;5;0;863
+Wall_119671;Toilette  ;Berlin;S Bhf. Treptower Park, Stern und Kreisschiffahrt/Puschkinallee 15  (7-22 Uhr);;12435;Deutschland;13,4633458852759;52,4934218571887;1;0;0,50;0;0;0;0;5;0;281
+Wall_119989;Wall CT, Pestalozzistr.;Berlin;Pestalozzistr. 77 (0-24 Uhr);;10627;Deutschland;13,306683;52,5078805;1;1;0,50;1;1;1;0;1;0;26
+Wall_119990;Wall CT, Preußenallee;Berlin;Preußenallee (0-24 Uhr);;14052;Deutschland;13,2601504282416;52,5161478405709;1;1;0,50;1;1;1;0;1;0;205
+Wall_119991;Wall CT, Hochmeisterplatz, Westfälische Str.;Berlin;Hochmeisterplatz, Westfälische Str. ggü. 70 (0-24 Uhr);;10709;Deutschland;13,299396643694;52,4952979658526;1;1;0,50;1;1;1;1;1;0;38
+Wall_119992;Wall CT, Humboldthain, Gustav-Meyer-Allee;Berlin;Humboldthain, Gustav-Meyer-Allee   (0-24 Uhr);;13355;Deutschland;13,3905134110447;52,5447483688373;1;1;0,50;1;1;1;0;1;0;95
+Wall_119993;Wall CT, Charlottenstr.;Berlin;Charlottenstr. ggü. 53-54 (0-24 Uhr);;10117;Deutschland;13,3915;52,5141666666667;1;1;0,50;1;1;1;0;1;0;218
+Wall_119994;Wall CT, Alt-Moabit;Berlin;Alt-Moabit ggü. 81-82 (0-24 Uhr);;10555;Deutschland;13,3355016043326;52,5249959545972;1;1;0,50;1;1;1;0;1;0;124
+Wall_119995;Wall CT, Buddeplatz (S-Bhf. Tegel), Buddestr.;Berlin;Buddeplatz (S-Bhf. Tegel), Buddestr. ggü. 12 (0-24 Uhr);;13507;Deutschland;13,2885526718782;52,5880929133972;1;1;0,50;1;1;1;1;1;0;58
+Wall_119996;Wall CT, Göschenplatz, Oranienburger Str.;Berlin;Göschenplatz, Oranienburger Str. 184-185 (0-24 Uhr);;13437;Deutschland;13,3323362320875;52,5975450801601;1;1;0,50;1;1;1;0;1;0;83
+Wall_119997;Wall CT, Am Märchenbrunnen, Friedenstr.;Berlin;Am Märchenbrunnen, Friedenstr. ggü. 4 (0-24 Uhr);;10249;Deutschland;13,4273933717382;52,5271156463647;1;1;0,50;1;1;1;0;1;0;99
+Wall_119998;Wall CT, Forckenbeckplatz, Eldenaer Str.;Berlin;Forckenbeckplatz, Eldenaer Str. ggü. 44-45 (0-24 Uhr);;10247;Deutschland;13,4610899385872;52,5199553504883;1;1;0,50;1;1;1;0;1;0;109
+Wall_119999;Wall CT, Degnerstr.;Berlin;Degnerstr. 5 (0-24 Uhr);;13053;Deutschland;13,4942620699196;52,5455958200139;1;1;0,50;1;1;1;0;1;0;122
+Wall_120000;Wall CT, Gürtelstr.;Berlin;Gürtelstr. (0-24 Uhr);;10247;Deutschland;13,4769761791238;52,5131466112857;1;1;0,50;1;1;1;0;1;0;118
+Wall_120001;Wall CT, Kladower Damm;Berlin;Kladower Damm 387 (0-24 Uhr);;14089;Deutschland;13,1439183848348;52,4537512566632;1;1;0,50;1;1;1;0;1;0;71
+Wall_120002;Wall CT, Hellersdorfer Str.;Berlin;Hellersdorfer Str. 78 (0-24 Uhr);;12619;Deutschland;13,5884471023787;52,5208672435587;1;1;0,50;1;1;1;0;1;0;76
+Wall_120003;Wall CT, Ahrensfelder Platz;Berlin;Ahrensfelder Platz   (0-24 Uhr);;12689;Deutschland;13,5658355425444;52,5700993692982;1;1;0,50;1;1;1;0;1;1;121
+Wall_120004;Wall CT, Lipschitzplatz;Berlin;Lipschitzplatz   (0-24 Uhr);;12353;Deutschland;13,4631797599315;52,4238378901859;1;1;0,50;1;1;1;0;1;0;44
+Wall_120005;Wall CT, Richardplatz;Berlin;Richardplatz 17 (0-24 Uhr);;12055;Deutschland;13,4453848820056;52,4740718987721;1;1;0,50;1;1;1;0;1;0;103
+Wall_120006;Wall CT, Kollwitzplatz, Kollwitzstr.;Berlin;Kollwitzplatz, Kollwitzstr. ggü. 56A (0-24 Uhr);;10435;Deutschland;13,4170250013635;52,5355833506877;1;1;0,50;1;1;1;1;1;0;45
+Wall_120007;Wall CT, Elsa-Brändström-Str.;Berlin;Elsa-Brändström-Str. 2 (0-24 Uhr);;13189;Deutschland;13,4135351693118;52,5598340819584;1;1;0,50;1;1;1;0;1;0;86
+Wall_120008;Wall CT, Alt-Mariendorf;Berlin;Alt-Mariendorf 33 (0-24 Uhr);;12107;Deutschland;13,3879121808658;52,4401587349364;1;1;0,50;1;1;1;0;1;0;57
+Wall_120009;Wall CT, Hauptstr.;Berlin;Hauptstr. 128 (0-24 Uhr);;10827;Deutschland;13,3528118756615;52,4843251564501;1;1;0,50;1;1;1;0;1;0;106
+Wall_120010;Wall CT, Argentinische Allee;Berlin;Argentinische Allee (0-24 Uhr);;14163;Deutschland;13,2401710897821;52,4423428716787;1;1;0,50;1;1;1;0;1;0;77
+Wall_120011;Wall CT, S-Bhf. Zehlendorf, Teltower Damm;Berlin;S-Bhf. Zehlendorf, Teltower Damm 37-39 (0-24 Uhr);;14165;Deutschland;13,259629;52,430962;1;1;0,50;1;1;1;0;1;0;29
+Wall_120012;Wall CT, Brauerstr.;Berlin;Brauerstr. ggü. 1 (0-24 Uhr);;12209;Deutschland;13,326157;52,427696;1;1;0,50;1;1;1;0;1;0;51
+Wall_120013;Wall CT, S-Bhf. Grünau, Wassersportallee;Berlin;S-Bhf. Grünau, Wassersportallee   (0-24 Uhr);;12527;Deutschland;13,574246;52,413678;1;1;0,50;1;1;1;0;1;0;75
+Wall_120014;Wall CT, Sterndamm;Berlin;Sterndamm 8-10 (0-24 Uhr);;12487;Deutschland;13,50934272;52,45369117;1;1;0,50;1;1;1;0;1;0;82
+Wall_120015;Wall CT, S-Bhf. Köpenick, Stellingdamm;Berlin;S-Bhf. Köpenick, Stellingdamm ggü. 1 (0-24 Uhr);;12555;Deutschland;13,5802191173496;52,4588468714187;1;1;0,50;1;1;1;0;1;0;260
+Wall_120016;Wall CT, Kiefholzstr.;Berlin;Kiefholzstr. 258 (0-24 Uhr);;12437;Deutschland;13,4868053644179;52,4658911727311;1;1;0,50;1;1;1;0;1;0;100
+Wall_120017;Wall CT, Plesser Str.;Berlin;Plesser Str. 7 (0-24 Uhr);;12435;Deutschland;13,4511497884872;52,4890646412465;1;1;0,50;1;1;1;0;1;0;154
+Wall_120018;Wall CT, Schivelbeiner Str.;Berlin;Schivelbeiner Str. 1 (0-24 Uhr);;10439;Deutschland;13,41343229;52,55067675;1;1;0,50;1;1;1;0;1;0;87
+Wall_120019;Wall CT, Bornholmer Str.;Berlin;Bornholmer Str. 94 (0-24 Uhr);;10439;Deutschland;13,41329416;52,55375525;1;1;0,50;1;1;1;0;1;0;117
+Wall_120020;Wall CT, Steglitzer Damm;Berlin;Steglitzer Damm ggü. 3 (0-24 Uhr);;12167;Deutschland;13,3362051601007;52,4510085070607;1;1;0,50;1;1;1;0;1;0;131
+Wall_120021;Wall CT, Leonorenstr.;Berlin;Leonorenstr. ggü. 67 (0-24 Uhr);;12247;Deutschland;13,3431152369142;52,4389576397892;1;1;0,50;1;1;1;0;1;0;63
+Wall_120022;Wall CT, Platz der Luftbrücke, Tempelhofer Damm;Berlin;Platz der Luftbrücke, Tempelhofer Damm (0-24 Uhr);;12101;Deutschland;13,3868324212871;52,4842403167076;1;1;0,50;1;1;1;0;1;0;46
+Wall_120023;Wall CT, Kurt-Schumacher-Platz, Scharnweberstr.;Berlin;Kurt-Schumacher-Platz, Scharnweberstr. ggü. 19 (0-24 Uhr);;13405;Deutschland;13,3267155793166;52,5639195878818;1;1;0,50;1;1;1;0;1;0;78
+Wall_120024;Wall CT, Gudrunstr.;Berlin;Gudrunstr. 20 (0-24 Uhr);;10365;Deutschland;13,50882;52,51505;1;1;0,50;1;1;1;0;1;0;88
+Wall_120185;Wall CT, Urbanstr.;Berlin;Urbanstr. 21 (0-24 Uhr);;10961;Deutschland;13,4085659005121;52,4927440515212;1;1;0,50;1;1;1;0;1;0;262
+Wall_120186;Wall CT, Planufer;Berlin;Planufer   (0-24 Uhr);;10967;Deutschland;13,4198320333;52,4956702562474;1;1;0,50;1;1;1;0;1;0;70
+Wall_120188;Wall CT, Gneisenaustr.;Berlin;Gneisenaustr. 39 (0-24 Uhr);;10961;Deutschland;13,398054;52,490534;1;1;0,50;1;1;1;0;1;1;84
+Wall_120189;Wall CT, Görlitzer Park, Wiener Str.;Berlin;Görlitzer Park, Wiener Str. 59A (0-24 Uhr);;10999;Deutschland;13,4391568914807;52,4950580656832;1;1;0,50;1;1;1;0;1;0;85
+Wall_120190;Wall CT, Platz der Vereinten Nationen, Landsberger Allee;Berlin;Platz der Vereinten Nationen, Landsberger Allee   (0-24 Uhr);;10249;Deutschland;13,4329856332671;52,5235085677499;1;1;0,50;1;1;1;0;1;0;31
+Wall_120191;Wall CT, Erich-Steinfurth-Str.;Berlin;Erich-Steinfurth-Str.   (0-24 Uhr);;10243;Deutschland;13,4345572862;52,5114773654;1;1;0,50;1;1;1;0;1;1;21
+Wall_120192;Wall CT, Warschauer Str.;Berlin;Warschauer Str. ggü. 33 (0-24 Uhr);;10243;Deutschland;13,4506315673;52,5076197422;1;1;0,50;1;1;1;0;1;1;33
+Wall_120193;Wall CT, Wühlischplatz, Wühlischstr.;Berlin;Wühlischplatz, Wühlischstr. ggü. 11 (0-24 Uhr);;10245;Deutschland;13,4639155114;52,5079000373;1;1;0,50;1;1;1;0;1;0;89
+Wall_120205;Wall CT, Grellstr.;Berlin;Grellstr. 39 (0-24 Uhr);;10409;Deutschland;13,4382226755741;52,5414832231387;1;1;0,50;1;1;1;0;1;0;102
+Wall_120206;Wall CT, Bülowstr.;Berlin;Bülowstr. ggü. 49 (0-24 Uhr);;10783;Deutschland;13,3669141154753;52,4938516883151;1;1;0,50;1;1;1;0;1;0;114
+Wall_120207;Wall CT, Reinickendorfer Str.;Berlin;Reinickendorfer Str. 9 (0-24 Uhr);;13347;Deutschland;13,3699104981192;52,5416111409171;1;1;0,50;1;1;1;0;1;0;220
+Wall_120208;Wall CT, Osloer Str.;Berlin;Osloer Str. 18 (0-24 Uhr);;13359;Deutschland;13,3839865758039;52,5560486511468;1;1;0,50;1;1;1;0;1;0;112
+Wall_120209;Wall CT, Köllnischer Park, Rungestr.;Berlin;Köllnischer Park, Rungestr. 31 (0-24 Uhr);;10179;Deutschland;13,413572565667;52,5127077113696;1;1;0,50;1;1;1;0;1;0;116
+Wall_120210;Wall CT, Dürerplatz;Berlin;Dürerplatz 5 (0-24 Uhr);;12157;Deutschland;13,3415016338287;52,4695434114471;1;1;0,50;1;1;1;0;1;0;110
+Wall_120211;Wall CT, Priesterweg;Berlin;Priesterweg S-Bahnhof (0-24 Uhr);;12157;Deutschland;13,355711;52,459251;1;1;0,50;1;1;1;0;1;0;127
+Wall_120212;Wall CT, Marienfelder Allee;Berlin;Marienfelder Allee 144-146 (0-24 Uhr);;12277;Deutschland;13,3631543938859;52,4134984395888;1;1;0,50;1;1;1;0;1;0;128
+Wall_120213;Wall CT, Friedrichstr.;Berlin;Friedrichstr. ggü. 10-11 (0-24 Uhr);;10969;Deutschland;13,391234;52,501269;1;1;0,50;1;1;1;0;1;0;91
+Wall_120214;Wall CT, Im Domstift;Berlin;Im Domstift   (0-24 Uhr);;12309;Deutschland;13,4101617301817;52,3877787779863;1;1;0,50;1;1;1;0;1;0;139
+Wall_120215;Wall CT, Nöldnerplatz, Archibaldweg;Berlin;Nöldnerplatz, Archibaldweg   (0-24 Uhr);;10317;Deutschland;13,48398;52,50302;1;1;0,50;1;1;1;1;1;0;93
+Wall_120216;Wall CT, Marzahner Promenade (Fußgängerzone);Berlin;Marzahner Promenade (Fußgängerzone) 30-33 (0-24 Uhr);;12679;Deutschland;13,549245;52,544367;1;1;0,50;1;1;1;1;1;0;69
+Wall_120222;Wall CT, Waldstr.;Berlin;Waldstr. 1 (0-24 Uhr);;10551;Deutschland;13,3306064855452;52,5274148885999;1;1;0,50;1;1;1;0;1;0;39
+Wall_120223;Wall CT, Hugenottenplatz, Schweizer Tal;Berlin;Hugenottenplatz, Schweizer Tal ggü. 48 (0-24 Uhr);;13127;Deutschland;13,4205648128286;52,6071445264468;1;1;0,50;1;1;1;0;1;0;137
+Wall_120224;Wall CT, Hohenzollerndamm;Berlin;Hohenzollerndamm   (0-24 Uhr);;14199;Deutschland;13,281976346854;52,4769410549611;1;1;0,50;1;1;1;0;1;0;6
+Wall_120225;Wall CT, Wilhelminenhofstr.;Berlin;Wilhelminenhofstr. 54 (0-24 Uhr);;12459;Deutschland;13,5266717549591;52,4585928594435;1;1;0,50;1;1;1;0;1;0;167
+Wall_120226;Wall CT, Bundesallee, Friedrich-Wilhelm-Platz;Berlin;Bundesallee, Friedrich-Wilhelm-Platz 4 (0-24 Uhr);;12161;Deutschland;13,3279317674284;52,4725628119395;1;1;0,50;1;1;1;0;1;0;36
+Wall_120227;Wall CT, Achillesstr.;Berlin;Achillesstr. ggü. 59 (0-24 Uhr);;13125;Deutschland;13,48851;52,617635;1;1;0,50;1;1;1;0;1;0;149
+Wall_120228;Wall CT, S-Bhf. Wilhelmshagen, Schönblicker Str.;Berlin;S-Bhf. Wilhelmshagen, Schönblicker Str.   (0-24 Uhr);;12589;Deutschland;13,7210046415745;52,4390817378726;1;1;0,50;1;1;1;0;1;0;169
+Wall_120229;Wall CT, Badensche Str.;Berlin;Badensche Str. 29 (0-24 Uhr);;10715;Deutschland;13,3274845332077;52,4864769487566;1;1;0,50;1;1;1;0;1;0;107
+Wall_120230;Wall CT, Eberbacher Str.;Berlin;Eberbacher Str. 24 (0-24 Uhr);;14197;Deutschland;13,3092685301689;52,473324575463;1;1;0,50;1;1;1;1;1;0;104
+Wall_120403;Wall CT, Weitlingstr.;Berlin;Weitlingstr. 2 (0-24 Uhr);;10317;Deutschland;13,4993596999717;52,5106318769395;1;1;0,50;1;1;1;1;1;0;30
+Wall_120407;Wall CT, Seddiner Str.;Berlin;Seddiner Str. 22 (0-24 Uhr);;10315;Deutschland;13,5208341459128;52,5135019050001;1;1;0,50;1;1;1;1;1;0;734
+Wall_120443;Toilette Grünberger Str.;Berlin;Boxhagener Platz, Gärtnerstr. ggü. 12-13 (0-24 Uhr);;10245;Deutschland;13,4606556296341;52,5106971566647;1;1;0,00;0;0;0;0;5;0;184
+Wall_120446;Wall CT, Breitenbachplatz;Berlin;Breitenbachplatz 8 (0-24 Uhr);;14195;Deutschland;13,3086648230217;52,4672367895227;1;1;0,50;1;1;1;0;1;0;79
+Wall_120447;Wall CT, Griechische Allee;Berlin;Griechische Allee 2 (0-24 Uhr);;12459;Deutschland;13,5138909063174;52,4646370786482;1;1;0,50;1;1;1;0;1;0;152
+Wall_120448;Wall CT, Hempelsteig;Berlin;Hempelsteig hinter 1A (0-24 Uhr);;14052;Deutschland;13,240857;52,525505;1;1;0,50;1;1;1;0;1;0;172
+Wall_120449;Wall CT, Goerzallee;Berlin;Goerzallee 1-3 (0-24 Uhr);;12207;Deutschland;13,3093156903864;52,4309018915121;1;1;0,50;1;1;1;0;1;0;166
+Wall_120450;Wall CT, Munsterdamm;Berlin;Munsterdamm   (0-24 Uhr);;12169;Deutschland;13,3491057199504;52,4585530612939;1;1;0,50;1;1;1;0;1;0;164
+Wall_120451;Wall CT, Ostpreußendamm;Berlin;Ostpreußendamm 83 (0-24 Uhr);;12207;Deutschland;13,3048687553929;52,4175685677034;1;1;0,50;1;1;1;0;1;0;177
+Wall_120461;Wall CT, Zingster Str.;Berlin;Zingster Str. 37 (0-24 Uhr);;13059;Deutschland;13,4969495503473;52,5698739180807;1;1;0,50;1;1;1;1;1;0;809
+Wall_120462;Wall CT, Am Heidefriedhof, Reißeckstr.;Berlin;Am Heidefriedhof, Reißeckstr. 14 (0-24 Uhr);;12107;Deutschland;13,3920992767046;52,4397523119659;1;1;0,50;1;1;1;0;1;0;717
+Wall_120493;Wall CT, Steglitzer Damm;Berlin;Steglitzer Damm vor 39/39a (0-24 Uhr);;12169;Deutschland;13,3428182601929;52,45068359375;1;1;0,50;1;1;1;0;1;0;146
+Wall_120494;Wall CT, Schloßstr.;Berlin;Schloßstr. ggü. 33-35 (0-24 Uhr);;12163;Deutschland;13,3214325154;52,457269514;1;1;0,50;1;1;1;0;1;0;9
+Wall_120495;Wall CT, S-Bhf. Wartenberg , Egon-Erwin-Kisch-Str.;Berlin;S-Bhf. Wartenberg , Egon-Erwin-Kisch-Str. 28 (0-24 Uhr);;13059;Deutschland;13,5046711288011;52,5733301033486;1;1;0,50;1;1;1;1;1;0;97
+Wall_120496;Wall CT, Landsberger Allee;Berlin;Landsberger Allee   (0-24 Uhr);;10369;Deutschland;13,4706950203;52,5310082107;1;1;0,50;1;1;1;0;1;1;213
+Wall_120497;Wall CT, S-Bhf. Karlshorst, Stolzenfelsstr.;Berlin;S-Bhf. Karlshorst, Stolzenfelsstr.   (0-24 Uhr);;10318;Deutschland;13,5260174309;52,4813251482;1;1;0,50;1;1;1;1;1;0;49
+Wall_12051;Toilette Bernauer Str. (DLRG-Rettungsstelle/Badestelle/Fähre) (ex. Bernauer Str. an der Badestelle (Reiswerder));Berlin;Zufahrt Insel Reiswerder  (0-24 Uhr);;13629;Deutschland;13,2565555555556;52,5681388888889;1;0;0,00;0;0;0;0;5;0;
+Wall_120510;Wall CT, Boulevard Kastanienallee;Berlin;Boulevard Kastanienallee   (0-24 Uhr);;12619;Deutschland;13,6033523134046;52,5319120500029;1;1;0,50;1;1;1;0;1;0;277
+Wall_120511;Wall CT, Attilaplatz, Attilastr.;Berlin;Attilaplatz, Attilastr. ggü. 176 (0-24 Uhr);;12105;Deutschland;13,3759973597359;52,4559113902088;1;1;0,50;1;1;1;0;1;0;150
+Wall_120512;Wall CT, Hranitzkistr.;Berlin;Hranitzkistr.   (0-24 Uhr);;12277;Deutschland;13,3710977471902;52,4225198402077;1;1;0,50;1;1;1;0;1;0;143
+Wall_120737;Wall CT, Leipziger Straße Spittelmarkt;Berlin;Leipziger Straße Spittelmarkt   (0-24 Uhr);;10117;Deutschland;13,4007839020002;52,5116668951405;1;1;0,50;1;1;1;0;1;0;758
+Wall_120738;Wall CT, Hermannplatz;Berlin;Hermannplatz 9 (0-24 Uhr);;10967;Deutschland;13,4252979899;52,4876315049;1;1;0,50;1;1;1;0;1;0;27
+Wall_120739;Wall CT, Antonplatz, Berliner Allee;Berlin;Antonplatz, Berliner Allee 34 (0-24 Uhr);;13088;Deutschland;13,4512367147914;52,5481660046952;1;1;0,50;1;1;1;0;1;0;52
+Wall_120740;Wall CT, S-Bhf. Frohnau, Welfenallee;Berlin;S-Bhf. Frohnau, Welfenallee 1-5 (0-24 Uhr);;13465;Deutschland;13,2890079265;52,6319858039;1;1;0,50;1;1;1;0;1;0;48
+Wall_120741;Wall CT, Rudower Chaussee;Berlin;Rudower Chaussee 1-3 (0-24 Uhr);;12489;Deutschland;13,53926;52,43443;1;1;0,50;1;1;1;0;1;0;160
+Wall_120742;Wall CT, Neuendorfer Str.;Berlin;Neuendorfer Str. 2 (0-24 Uhr);;13585;Deutschland;13,2056353123;52,5414339921;1;1;0,50;1;1;1;0;1;0;64
+Wall_120744;Wall CT, Hohenzollernplatz, Hohenzollerndamm;Berlin;Hohenzollernplatz, Hohenzollerndamm 199 (0-24 Uhr);;10717;Deutschland;13,3250563841;52,494013819;1;1;0,50;1;1;1;0;1;0;60
+Wall_120745;Wall CT, S-Bhf. Biesdorf, Wuhlgartenweg;Berlin;S-Bhf. Biesdorf, Wuhlgartenweg   (0-24 Uhr);;12683;Deutschland;13,5549178147;52,5134202058;1;1;0,50;1;1;1;0;1;0;161
+Wall_120746;Wall CT, Innsbrucker Platz;Berlin;Innsbrucker Platz   (0-24 Uhr);;10825;Deutschland;13,3434712846;52,4786755758;1;1;0,50;1;1;1;0;1;0;74
+Wall_120747;Wall CT, Wernsdorfer Str.;Berlin;Wernsdorfer Str. ggü. 1 (0-24 Uhr);;12527;Deutschland;13,6493298625;52,3758170027;1;1;0,50;1;1;1;0;1;0;163
+Wall_120748;Wall CT, Winterfeldtplatz, Hohenstaufenstr.;Berlin;Winterfeldtplatz, Hohenstaufenstr. 1 (0-24 Uhr);;10781;Deutschland;13,3536221927;52,4948779984;1;1;0,50;1;1;1;0;1;0;81
+Wall_120749;Wall CT, George-Grosz-Platz, Kurfürstendamm;Berlin;George-Grosz-Platz, Kurfürstendamm 50 (0-24 Uhr);;10707;Deutschland;13,31733472;52,5014806902;1;1;0,50;1;1;1;0;1;0;18
+Wall_120750;Wall CT, Waldstr.;Berlin;Waldstr. ggü. 89 (0-24 Uhr);;13156;Deutschland;13,4002351085133;52,5806731668297;1;1;0,50;1;1;1;0;1;0;32
+Wall_120751;Wall CT, Fontanestr.;Berlin;Fontanestr.   (0-24 Uhr);;14193;Deutschland;13,263703;52,487504;1;1;0,50;1;1;1;0;1;0;92
+Wall_120752;Wall CT, S+U-Bhf. Wuhletal, Altentreptower Str.;Berlin;S+U-Bhf. Wuhletal, Altentreptower Str.   (0-24 Uhr);;12621;Deutschland;13,5748868504834;52,5129007399651;1;1;0,50;1;1;1;1;1;0;130
+Wall_120753;Wall CT, U-Bhf. Kienberg, Neue Grottkauer Str.;Berlin;U-Bhf. Kienberg, Neue Grottkauer Str.   (0-24 Uhr);;12619;Deutschland;13,591577839657;52,5294186207121;1;1;0,50;1;1;1;1;1;0;156
+Wall_120759;Wall CT, Quedlinburger Str.;Berlin;Quedlinburger Str. hinter 1 (0-24 Uhr);;12627;Deutschland;13,6047018253;52,5393854731;1;1;0,50;1;1;1;0;1;0;142
+Wall_120760;Wall CT, Hellersdorfer Str.;Berlin;Hellersdorfer Str. 227 (0-24 Uhr);;12627;Deutschland;13,6010719319;52,5358189594;1;1;0,50;1;1;1;0;1;0;173
+Wall_120761;Wall CT, Roedernstr.;Berlin;Roedernstr.   (0-24 Uhr);;12623;Deutschland;13,6011724568;52,4825517916;1;1;0,50;1;1;1;0;1;0;140
+Wall_120762;Wall CT, Elsterwerdaer Platz;Berlin;Elsterwerdaer Platz 1-3 (0-24 Uhr);;12683;Deutschland;13,5609083175659;52,5059394836426;1;1;0,50;1;1;1;0;1;1;73
+Wall_120763;Wall CT, Helene-Weigel-Platz;Berlin;Helene-Weigel-Platz 4 (0-24 Uhr);;12681;Deutschland;13,5380301295883;52,5279683889736;1;1;0,50;1;1;1;1;1;0;41
+Wall_120764;Wall CT, Debenzer Str.;Berlin;Debenzer Str. ggü. 36 (0-24 Uhr);;12683;Deutschland;13,54735;52,500953;1;1;0,50;1;1;1;1;1;1;145
+Wall_120941;Wall CT, Rathaus Spandau, Altstädter Ring;Berlin;Rathaus Spandau, Altstädter Ring   (0-24 Uhr);;13597;Deutschland;13,2004290600801;52,5354700822998;1;1;0,50;1;1;1;1;1;0;7
+Wall_120942;Wall CT, Imchenplatz, Imchenallee;Berlin;Imchenplatz, Imchenallee   (0-24 Uhr);;14089;Deutschland;13,1489187460324;52,4525249986595;1;1;0,50;1;1;1;1;1;0;50
+Wall_120943;Wall CT, Metzer Platz;Berlin;Metzer Platz ggü. 118 (0-24 Uhr);;13595;Deutschland;13,1970124316781;52,5244093736923;1;1;0,50;1;1;1;0;1;1;56
+Wall_120944;Wall CT, Moritzstr.;Berlin;Moritzstr.   (0-24 Uhr);;13597;Deutschland;13,2011111111111;52,5383333333333;1;1;0,50;1;1;1;0;1;1;47
+Wall_121087;Wall CT, Wiltbergstr.;Berlin;Wiltbergstr. 19 (0-24 Uhr);;13125;Deutschland;13,494606453114;52,6356555785213;1;1;0,50;1;1;1;0;1;0;111
+Wall_121088;Wall CT, Breite Str.;Berlin;Breite Str. 35 (0-24 Uhr);;13187;Deutschland;13,4073465278231;52,5702539545699;1;1;0,50;1;1;1;0;1;1;53
+Wall_121089;Wall CT, Berliner Allee;Berlin;Berliner Allee ggü. 160 (0-24 Uhr);;13086;Deutschland;13,4662555638586;52,5526148501705;1;1;0,50;1;1;1;1;1;1;135
+Wall_121090;Wall CT, Schönhauser Allee;Berlin;Schönhauser Allee hinter 137 (0-24 Uhr);;10437;Deutschland;13,411940574646;52,5430526733398;1;1;0,50;1;1;1;0;1;1;62
+Wall_121091;Wall CT, Wichertstr.;Berlin;Wichertstr. 21 (0-24 Uhr);;10439;Deutschland;13,42089017;52,54864128;1;1;0,50;1;1;1;0;1;1;134
+Wall_121092;Wall CT, Wichertstr.;Berlin;Wichertstr. 43 (0-24 Uhr);;10439;Deutschland;13,42732495;52,5458669801;1;1;0,50;1;1;1;0;1;1;123
+Wall_121093;Wall CT, Helmholtzplatz, Raumerstr.;Berlin;Helmholtzplatz, Raumerstr. ggü. 9 (0-24 Uhr);;10437;Deutschland;13,4186597605807;52,5428997393468;1;1;0,50;1;1;1;1;1;1;126
+Wall_121094;Wall CT, Am Falkplatz;Berlin;Am Falkplatz ggü. 5 (0-24 Uhr);;10437;Deutschland;13,4054260825;52,5467650349;1;1;0,50;1;1;1;1;1;1;120
+Wall_121095;Wall CT, Arnswalder Platz, Bötzowstr.;Berlin;Arnswalder Platz, Bötzowstr. ggü. 51 (0-24 Uhr);;10407;Deutschland;13,4371079873968;52,5335952903103;1;1;0,50;1;1;1;1;1;1;231
+Wall_121141;Wall CT, Am Weißen See, Parkstr.;Berlin;Am Weißen See, Parkstr. ggü. 80 (0-24 Uhr);;13086;Deutschland;13,4587438498199;52,5555743891318;1;1;0,50;1;1;1;1;1;1;806
+Wall_121168;Wall CT, Schillerpromenade;Berlin;Schillerpromenade 37 (0-24 Uhr);;12049;Deutschland;13,4219992471315;52,4775845145735;1;1;0,50;1;1;1;0;1;1;138
+Wall_121169;Wall CT, Sonnenallee;Berlin;Sonnenallee 262 (0-24 Uhr);;12057;Deutschland;13,4643174809262;52,4703125033872;1;1;0,50;1;1;1;0;1;1;141
+Wall_121170;Wall CT, Boddinplatz, Mainzer Str.;Berlin;Boddinplatz, Mainzer Str.   (0-24 Uhr);;12053;Deutschland;13,4284121007425;52,4799133489629;1;1;0,50;1;1;1;0;1;1;144
+Wall_121238;Wall CT, Seestr.;Berlin;Seestr. 94 (0-24 Uhr);;13353;Deutschland;13,3515952183918;52,5503828539617;1;1;0,50;1;1;1;0;1;0;23
+Wall_121945;Wall CT, Savignyplatz;Berlin;Savignyplatz 1 (0-24 Uhr);;10623;Deutschland;13,322725;52,505252;1;1;0,50;1;1;1;0;1;0;278
+Wall_121946;Wall CT, Schönefelder Chaussee;Berlin;Schönefelder Chaussee 100 (0-24 Uhr);;12524;Deutschland;13,5275184661;52,4109872979;1;1;0,50;1;1;1;0;1;0;170
+Wall_121947;Wall CT, Briesingstr.;Berlin;Briesingstr. ggü. 1 (0-24 Uhr);;12307;Deutschland;13,3984986623649;52,3865178510777;1;1;0,50;1;1;1;0;1;1;43
+Wall_121948;Wall CT, Kurt-Schumacher-Damm;Berlin;Kurt-Schumacher-Damm   (0-24 Uhr);;13627;Deutschland;13,29402034;52,53625419;1;1;0,50;1;1;1;0;1;0;59
+Wall_121956;Wall CT, Bundesallee, Bundesplatz;Berlin;Bundesallee, Bundesplatz 6 (0-24 Uhr);;10715;Deutschland;13,3282867070272;52,4790069600456;1;1;0,50;1;1;1;0;1;0;94
+Wall_122375;Wall CT, Fulhamer Allee;Berlin;Fulhamer Allee ggü. 34 (0-24 Uhr);;12353;Deutschland;13,4402238234256;52,4477105502961;1;1;0,50;1;1;1;0;1;1;808
+Wall_122395;Wall CT, Park am Weinbergsweg, Weinbergsweg;Berlin;Park am Weinbergsweg, Weinbergsweg (0-24 Uhr);;10119;Deutschland;13,4030886906136;52,5319477065682;1;1;0,50;1;1;1;1;1;1;880
+Wall_122523;Wall CT, Am Treptower Park;Berlin;Am Treptower Park ggü. 31-32 (0-24 Uhr);;12435;Deutschland;13,464374587928;52,4874667583911;1;1;0,50;1;1;1;0;1;0;113
+Wall_122524;Wall CT, S-Bhf. Friedrichshagen, Dahlwitzer Landstr.;Berlin;S-Bhf. Friedrichshagen, Dahlwitzer Landstr.   (0-24 Uhr);;12587;Deutschland;13,62535;52,457726;1;1;0,50;1;1;1;0;1;1;66
+Wall_122525;Wall CT, Comeniusplatz, Torellstr.;Berlin;Comeniusplatz, Torellstr. ggü. 1 (0-24 Uhr);;10243;Deutschland;13,4473361604833;52,5114461688103;1;1;0,50;1;1;1;0;1;1;119
+Wall_122526;Wall CT, Traveplatz, Weichselstr.;Berlin;Traveplatz, Weichselstr. ggü. 13-14 (0-24 Uhr);;10247;Deutschland;13,4690242763962;52,511231535323;1;1;0,50;1;1;1;0;1;0;132
+Wall_122527;Wall CT, Skalitzer Str.;Berlin;Skalitzer Str. ggü. 6 (0-24 Uhr);;10997;Deutschland;13,4303110155598;52,4999602368727;1;1;0,50;1;1;1;0;1;0;55
+Wall_122528;Wall CT, Alfred-Scholz-Platz, Richardstr.;Berlin;Alfred-Scholz-Platz, Richardstr. 1 (0-24 Uhr);;12043;Deutschland;13,438141;52,478802;1;1;0,50;1;1;1;0;1;0;230
+Wall_122529;Wall CT, Ludwigkirchplatz;Berlin;Ludwigkirchplatz 12 (0-24 Uhr);;10719;Deutschland;13,3223900106436;52,4971413116517;1;1;0,50;1;1;1;1;1;0;98
+Wall_122530;Wall CT, Turmstr.;Berlin;Turmstr. ggü. 20a-21 (0-24 Uhr);;10178;Deutschland;13,3480949658845;52,526093090526;1;1;0,50;1;1;1;0;1;1;115
+Wall_122531;Wall CT, Invalidenstr.;Berlin;Invalidenstr. ggü. 44 (0-24 Uhr);;10117;Deutschland;13,3781628439159;52,5289575745279;1;1;0,50;1;1;1;0;1;1;148
+Wall_122572;Wall CT, Burgstr. (James-Simon-Park);Berlin;Burgstr. (James-Simon-Park) ggü. 28 (0-24 Uhr);;10178;Deutschland;13,400429357;52,521999592;1;1;0,50;1;1;1;0;1;1;22
+Wall_122573;Wall CT, Potsdamer Str.;Berlin;Potsdamer Str. 109 (0-24 Uhr);;10785;Deutschland;13,3630616908073;52,4998790525937;1;1;0,50;1;1;1;0;1;1;68
+Wall_122574;Wall CT, Museumsinsel, Am Lustgarten;Berlin;Museumsinsel, Am Lustgarten   (0-24 Uhr);;10178;Deutschland;13,3998980761;52,5194673259;1;1;0,50;1;1;1;0;1;1;17
+Wall_122575;Wall CT, Str. des 17. Juni;Berlin;Str. des 17. Juni   (0-24 Uhr);;10557;Deutschland;13,3755391287496;52,5163720170624;1;1;0,50;1;1;1;0;1;1;19
+Wall_122576;Wall CT, Linkstr.;Berlin;Linkstr. ggü. 10 (0-24 Uhr);;10785;Deutschland;13,3742894166;52,5055704086;1;1;0,50;1;1;1;0;1;1;168
+Wall_122579;Wall CT, Leopoldplatz, Müllerstr.;Berlin;Leopoldplatz, Müllerstr. ggü. 150 (0-24 Uhr);;13347;Deutschland;13,3586066;52,5470043;1;1;0,50;1;1;1;0;1;1;222
+Wall_122580;Wall CT, Ungarnstr.;Berlin;Ungarnstr. ggü. 58 (0-24 Uhr);;13349;Deutschland;13,35593646;52,555437;1;1;0,50;1;1;1;0;1;1;108
+Wall_122581;Wall CT, Alt-Tegel;Berlin;Alt-Tegel 1-3 (0-24 Uhr);;13507;Deutschland;13,2827884563623;52,5898527733733;1;1;0,50;1;1;1;0;1;0;13
+Wall_122583;Wall CT, An der Werderlake;Berlin;An der Werderlake   (0-24 Uhr);;12355;Deutschland;13,5166011055646;52,4200935571602;1;1;0,50;1;1;1;0;1;0;916
+Wall_122584;Wall CT, S-Bhf. Plänterwald, Bahnhofsvorplatz;Berlin;S-Bhf. Plänterwald, Bahnhofsvorplatz   (0-24 Uhr);;12435;Deutschland;13,4739695463681;52,4787140672384;1;1;0,50;1;1;1;1;1;1;914
+Wall_122585;Wall CT, Greenwichpromenade;Berlin;Greenwichpromenade   (0-24 Uhr);;13507;Deutschland;13,2725972163991;52,5890975626873;1;1;0,50;1;1;1;1;1;0;263
+Wall_122586;Wall CT, Wittenbergplatz, Ansbacher Str.;Berlin;Wittenbergplatz, Ansbacher Str. ggü. 24 (0-24 Uhr);;10789;Deutschland;13,3427270609067;52,5024676291825;1;1;0,50;1;1;1;1;1;0;11
+Wall_122587;Wall CT, Mariendorfer Damm;Berlin;Mariendorfer Damm 90 (0-24 Uhr);;12109;Deutschland;13,3856663883506;52,4443831917401;1;1;0,50;1;1;1;0;1;1;90
+Wall_122588;Wall CT, S-u. U-Bhf. Tempelhof, Tempelhofer Damm;Berlin;S-u. U-Bhf. Tempelhof, Tempelhofer Damm 108 (0-24 Uhr);;12099;Deutschland;13,385392;52,470273;1;1;0,50;1;1;1;0;1;0;37
+Wall_122589;Wall CT, Klausenerplatz;Berlin;Klausenerplatz ggü. 23 (0-24 Uhr);;14059;Deutschland;13,290356505;52,51879627;1;1;0,50;1;1;1;1;1;1;65
+Wall_122590;Wall CT, Hans-Rosenthal-Platz , Kufsteiner Str.;Berlin;Hans-Rosenthal-Platz , Kufsteiner Str.   (0-24 Uhr);;10825;Deutschland;13,33693;52,480497;1;1;0,50;1;1;1;1;1;1;67
+Wall_122608;Wall CT, Trakehner Allee;Berlin;Trakehner Allee vor ggü. 3 (0-24 Uhr);;14053;Deutschland;13,2434255789804;52,512951358555;1;1;0,50;1;1;1;0;1;0;273
+Wall_122609;Wall CT, Olympischer Platz;Berlin;Olympischer Platz 6 (0-24 Uhr);;14053;Deutschland;13,2443537242179;52,5155974505231;1;1;0,50;1;1;1;0;1;0;202
+Wall_122610;Wall CT, Trakehner Allee;Berlin;Trakehner Allee hinter ggü. 7 (0-24 Uhr);;14053;Deutschland;13,240826986444;52,5121956483398;1;1;0,50;1;1;1;0;1;0;162
+Wall_122611;Wall CT, Jesse-Owens-Allee;Berlin;Jesse-Owens-Allee vor ggü. 2 (0-24 Uhr);;14053;Deutschland;13,2368291260182;52,5106228525806;1;1;0,50;1;1;1;0;1;0;872
+Wall_122631;Wall CT, Siegfriedstr.;Berlin;Siegfriedstr. ggü. 23 (0-24 Uhr);;12051;Deutschland;13,4314583180754;52,4678621065571;1;1;0,50;1;1;1;0;1;1;704
+Wall_122633;Wall CT, Joachim-Gottschalk-Weg;Berlin;Joachim-Gottschalk-Weg 12-14 (0-24 Uhr);;12353;Deutschland;13,4766121902363;52,4226602135946;1;1;0,50;1;1;1;0;1;0;125
+Wall_122812;Wall CT, Hallesches Ufer;Berlin;Hallesches Ufer   (0-24 Uhr);;10969;Deutschland;13,3913257043903;52,4979512797239;1;1;0,50;1;1;1;0;1;1;804
+Wall_122814;Wall CT, Max.-Kraft-Platz, Katzlerstr.;Berlin;Max.-Kraft-Platz, Katzlerstr. ggü. 20 (0-24 Uhr);;10823;Deutschland;13,3690376999477;52,4927579527105;1;1;0,50;1;1;1;1;1;1;944
+Wall_122815;Wall CT, Büsingstr.;Berlin;Büsingstr. ggü. 2 (0-24 Uhr);;12161;Deutschland;13,3261596400353;52,4656852997629;1;1;0,50;1;1;1;1;1;0;742
+Wall_122816;Wall CT, Stübbenstr.;Berlin;Stübbenstr.   (0-24 Uhr);;10779;Deutschland;13,3379572238377;52,4884851121927;1;1;0,50;1;1;1;1;1;1;300
+Wall_122817;Wall CT, Röblingstr.;Berlin;Röblingstr. 161 (0-24 Uhr);;12105;Deutschland;13,3665367675903;52,4498735995252;1;1;0,50;1;1;1;1;1;0;307
+Wall_122818;Wall CT, Dennewitzplatz, Dennewitzstr.;Berlin;Dennewitzplatz, Dennewitzstr. ggü. 22 (0-24 Uhr);;10783;Deutschland;13,3669367751199;52,4971543225881;1;1;0,50;1;1;1;1;1;1;692
+Wall_122819;Wall CT, Holzmannstr.;Berlin;Holzmannstr. ggü. 23 (0-24 Uhr);;12099;Deutschland;13,4182252628035;52,4625187173942;1;1;0,50;1;1;1;1;1;1;715
+Wall_122820;Wall CT, Wartburgplatz, Martin-Luther-Str.;Berlin;Wartburgplatz, Martin-Luther-Str.   (0-24 Uhr);;10823;Deutschland;13,3453017022547;52,4879542644958;1;1;0,50;1;1;1;0;1;1;743
+Wall_122821;Wall CT, Motzstr.;Berlin;Motzstr. ggü. 41 (0-24 Uhr);;10777;Deutschland;13,345158579948;52,4969068236383;1;1;0,50;1;1;1;1;1;1;744
+Wall_122939;Wall CT, Waltersdorfer Chaussee;Berlin;Waltersdorfer Chaussee ggü. 5-7 (0-24 Uhr);;12355;Deutschland;13,4977403163385;52,4158088417092;1;1;0,50;1;1;1;0;1;1;10
+Wall_122940;Wall CT, Berkaer Str.;Berlin;Berkaer Str. vor 1 (0-24 Uhr);;14199;Deutschland;13,2904180558149;52,4757516888295;1;1;0,50;1;1;1;1;1;0;904
+Wall_122942;Wall CT, Rudolfplatz, Modersohnstr.;Berlin;Rudolfplatz, Modersohnstr. ggü. 53-55 (0-24 Uhr);;10245;Deutschland;13,4568589044744;52,5026830728314;1;1;0,50;1;1;1;0;1;1;807
+Wall_122943;Wall CT, Falckensteinstr.;Berlin;Falckensteinstr. hinter 38 (0-24 Uhr);;10997;Deutschland;13,4430254284233;52,4989927697972;1;1;0,50;1;1;1;0;1;1;696
+Wall_122974;Wall CT, Oranienplatz;Berlin;Oranienplatz ggü. 1 (0-24 Uhr);;10999;Deutschland;13,4151105784254;52,5025964081577;1;1;0,50;1;1;1;1;1;1;686
+Wall_123024;Wall CT, Mariannenplatz;Berlin;Mariannenplatz 2-3 (0-24 Uhr);;10997;Deutschland;13,424531;52,50307;1;1;0,50;1;1;1;1;1;1;897
+Wall_123027;Wall CT, Klixarena, Zobeltitzstr.;Berlin;Klixarena, Zobeltitzstr. ggü. 93 (0-24 Uhr);;13403;Deutschland;13,308729673772;52,570240401001;1;1;0,50;1;1;1;1;1;0;884
+Wall_123029;Wall CT, Letteplatz, Letteallee;Berlin;Letteplatz, Letteallee ggü. 46 (0-24 Uhr);;13409;Deutschland;13,3709050422555;52,5632981645931;1;1;0,50;1;1;1;1;1;0;796
+Wall_123030;Wall CT, Schäfersee, Am Schäfersee;Berlin;Schäfersee, Am Schäfersee   (0-24 Uhr);;13407;Deutschland;13,3586228154509;52,5634530168107;1;1;0,50;1;1;1;0;1;0;939
+Wall_123031;Wall CT, Auguste-Viktoria-Allee;Berlin;Auguste-Viktoria-Allee ggü. 88 (0-24 Uhr);;13403;Deutschland;13,3238639955806;52,5700993571902;1;1;0,50;1;1;1;0;1;0;799
+Wall_123032;Wall CT, Senftenberger Ring;Berlin;Senftenberger Ring   (0-24 Uhr);;13439;Deutschland;13,353790066078;52,5996651754162;1;1;0,50;1;1;1;0;1;0;797
+Wall_123086;Wall CT, Böhmischer Platz, Böhmische Str.;Berlin;Böhmischer Platz, Böhmische Str. ggü. 45 (0-24 Uhr);;12055;Deutschland;13,4493724241377;52,4739891831512;1;1;0,50;1;1;1;0;1;0;907
+Wall_123172;Wall CT, Bürgerpark Pankow, Leonhard-Frank-Str.;Berlin;Bürgerpark Pankow, Leonhard-Frank-Str. ggü. 1 (0-24 Uhr);;13156;Deutschland;13,3888560301798;52,5695241873745;1;1;0,50;1;1;1;1;1;1;883
+Wall_123175;Wall CT, Am Schlachtensee;Berlin;Am Schlachtensee (0-24 Uhr);;14129;Deutschland;13,2144458755228;52,4401584741876;1;1;0,50;1;1;1;0;1;1;890
+Wall_123176;Wall CT, Mühlenstr.;Berlin;Mühlenstr. ggü. 65 (0-24 Uhr);;12249;Deutschland;13,3477631316314;52,4321597279235;1;1;0,50;1;1;1;1;1;1;316
+Wall_123312;Wall CT, Osloer Str.;Berlin;Osloer Str.   (0-24 Uhr);;13359;Deutschland;13,3722521965853;52,557039819952;1;1;0,50;1;1;1;0;1;1;762
+Wall_123363;Wall CT, Stralsunder Str. (Fußgängerzone);Berlin;Stralsunder Str. (Fußgängerzone) 61 (0-24 Uhr);;13355;Deutschland;13,3952777777778;52,5397777777778;1;1;0,50;1;1;1;1;1;0;101
+Wall_123365;Wall CT, Weiskopffstr.;Berlin;Weiskopffstr. ggü. 12 (0-24 Uhr);;12459;Deutschland;13,5417987687468;52,4577762018818;1;1;0,50;1;1;1;1;1;0;333
+Wall_123366;Wall CT, Ottomar-Geschke-Str.;Berlin;Ottomar-Geschke-Str. ggü. 49 (0-24 Uhr);;12555;Deutschland;13,5628400782931;52,4464949716756;1;1;0,50;1;1;1;0;1;0;794
+Wall_123376;Wall CT, S-Bhf. Mahlsdorf, Hönower Str.;Berlin;S-Bhf. Mahlsdorf, Hönower Str. ggü. 79 (0-24 Uhr);;12623;Deutschland;13,6124389966236;52,5119161279725;1;1;0,50;1;1;1;1;1;1;719
+Wall_123385;Wall CT, Thomashöhe, Thomasstr.;Berlin;Thomashöhe, Thomasstr. ggü. 11-15 (0-24 Uhr);;12053;Deutschland;13,438905760934;52,4737141412463;1;1;0,50;1;1;1;0;1;1;136
+Wall_123390;Wall CT, Weichselstr. ;Berlin;Weichselstr.  ggü. 34 (0-24 Uhr);;12045;Deutschland;13,439041275332;52,4888602334729;1;1;0,50;1;1;1;1;1;1;882
+Wall_123391;Wall CT, Prerower Platz, Zingster Str.;Berlin;Prerower Platz, Zingster Str. ggü 5 (0-24 Uhr);;13051;Deutschland;13,504097989773;52,5644287994933;1;1;0,50;1;1;1;1;1;0;384
+Wall_123392;Wall CT, Vincent-van-Gogh-Str.;Berlin;Vincent-van-Gogh-Str. 20 (0-24 Uhr);;13057;Deutschland;13,5244707000485;52,564692682345;1;1;0,50;1;1;1;1;1;0;385
+Wall_123393;Wall CT, Storkower Str.;Berlin;Storkower Str. 207A (0-24 Uhr);;10369;Deutschland;13,4655294418335;52,5243949890137;1;1;0,50;1;1;1;1;1;0;387
+Wall_123394;Wall CT, Hauptstr.;Berlin;Hauptstr. ggü. 44A (0-24 Uhr);;13055;Deutschland;13,5052929214559;52,5486516611904;1;1;0,50;1;1;1;1;1;1;388
+Wall_123395;Wall CT, Am Tierpark;Berlin;Am Tierpark 72 (0-24 Uhr);;10319;Deutschland;13,5227291739323;52,4974583856643;1;1;0,50;1;1;1;1;1;0;405
+Wall_123397;Wall CT, Rheinsteinpark, Königswinterstr.;Berlin;Rheinsteinpark, Königswinterstr. ggü. 7 (0-24 Uhr);;10318;Deutschland;13,5297948664323;52,4832689530681;1;1;0,50;1;1;1;1;1;0;729
+Wall_123402;Wall CT, Paul-Lincke-Ufer;Berlin;Paul-Lincke-Ufer ggü. 16 (0-24 Uhr);;10999;Deutschland;13,4318183693879;52,4928459919693;1;1;0,50;1;1;1;0;1;1;905
+Wall_123403;Wall CT, Waterloo-Ufer;Berlin;Waterloo-Ufer (0-24 Uhr);;10961;Deutschland;13,3930303824613;52,4973898356451;1;1;0,50;1;1;1;0;1;0;700
+Wall_123422;Wall CT, Steinbergpark, Waidmannsluster Damm;Berlin;Steinbergpark, Waidmannsluster Damm ggü. 85 (0-24 Uhr);;13469;Deutschland;13,3059767323998;52,6017976809476;1;1;0,50;1;1;1;0;1;0;798
+Wall_123448;Wall CT, Bhf. Jungfernheide, Lambertstr.;Berlin;Bhf. Jungfernheide, Lambertstr.   (0-24 Uhr);;10589;Deutschland;13,3011954497467;52,5302015810798;1;1;0,50;1;1;1;0;1;1;751
+Wall_123451;Toilette Alt-Stralau (Wendenpark) ;Berlin;Alt-Stralau, Tunnelstr. ggü. 48-48C (0-24 Uhr);;10245;Deutschland;13,4784884122379;52,4920379163595;1;1;0,00;0;0;0;0;5;0;859
+Wall_123452;Toilette Eingang Danziger Str./Paul-Heyse-Str.;Berlin;Volkspark Friedrichshain, Neuer Hain   (0-24 Uhr);;10245;Deutschland;13,4435442644645;52,52926371287;1;0;0,00;0;0;0;0;5;0;186
+Wall_123453;Toilette Zugang Wiener Str./Ratiborstr.;Berlin;Görlitzer Park   (0-24 Uhr);;10999;Deutschland;13,4415032415752;52,4952007682188;1;0;0,00;0;0;0;0;5;0;860
+Wall_123484;Wall CT, Viktoriapark, Kreuzbergstr.;Berlin;Viktoriapark, Kreuzbergstr. ggü. 31 (0-24 Uhr);;10965;Deutschland;13,3775997545708;52,4893568193436;1;1;0,50;1;1;1;1;1;1;679
+Wall_123487;Wall CT, Schöneberger Str.;Berlin;Schöneberger Str. ggü. 21A-22 (0-24 Uhr);;10963;Deutschland;13,3778775491614;52,5025959448193;1;1;0,50;1;1;1;1;1;1;681
+Wall_123490;Wall CT, Waldeckpark, Alte Jakobstr.;Berlin;Waldeckpark, Alte Jakobstr. ggü. 110 (0-24 Uhr);;10969;Deutschland;13,4026252773467;52,5066660776828;1;1;0,50;1;1;1;1;1;1;685
+Wall_123491;Wall CT, Görlitzer Park, Zugang;Berlin;Görlitzer Park, Zugang (0-24 Uhr);;10999;Deutschland;13,4377054928347;52,4971951837104;1;1;0,50;1;1;1;0;1;1;878
+Wall_123492;Wall CT, Görlitzer Park, Zugang;Berlin;Görlitzer Park, Zugang   (0-24 Uhr);;10999;Deutschland;13,4321678831011;52,4990992941424;1;1;0,50;1;1;1;0;1;1;877
+Wall_123493;Wall CT, Petersburger Platz, Straßmannstr.;Berlin;Petersburger Platz, Straßmannstr. ggü. 21 (0-24 Uhr);;10249;Deutschland;13,4499501599053;52,5220686957113;1;1;0,50;1;1;1;1;1;1;668
+Wall_123495;Wall CT, Barnetstr.;Berlin;Barnetstr. ggü. 54 (0-24 Uhr);;12305;Deutschland;13,3961246058486;52,3969145123976;1;1;0,50;1;1;1;1;1;1;741
+Wall_123496;Wall CT, Dominicusstr.;Berlin;Dominicusstr. 16-18 (0-24 Uhr);;10825;Deutschland;13,3467060287756;52,4824081883314;1;1;0,50;1;1;1;0;1;1;892
+Wall_123497;Wall CT, Warschauer Str.;Berlin;Warschauer Str. hinter 47-48 (0-24 Uhr);;10243;Deutschland;13,4469624913089;52,5033765935473;1;1;0,50;1;1;1;0;1;1;695
+Wall_123498;Wall CT, Edinburger Str.;Berlin;Edinburger Str. 38 (0-24 Uhr);;13349;Deutschland;13,3483289012;52,5561112917;1;1;0,50;1;1;1;1;1;1;159
+Wall_123499;Wall CT, Kranoldplatz, Bendastr.;Berlin;Kranoldplatz, Bendastr.   (0-24 Uhr);;12051;Deutschland;13,4368558397;52,4661676648;1;1;0,50;1;1;1;0;1;1;153
+Wall_123500;Wall CT, Möllendorffstr.;Berlin;Möllendorffstr.   (0-24 Uhr);;10367;Deutschland;13,4795858138;52,518999597;1;1;0,50;1;1;1;1;1;1;165
+Wall_123501;Wall CT, Rennbahnstr.;Berlin;Rennbahnstr. ggü. 1-2 (0-24 Uhr);;13086;Deutschland;13,4658943730161;52,5571969543997;1;1;0,50;1;1;1;1;1;1;176
+Wall_123502;Wall CT, Bosepark, Manteuffelstr.;Berlin;Bosepark, Manteuffelstr. ggü. 9 (0-24 Uhr);;12103;Deutschland;13,377623;52,463965;1;1;0,50;1;1;1;1;1;1;147
+Wall_123515;Wall CT, Admiralbrücke, Planufer;Berlin;Admiralbrücke, Planufer   (0-24 Uhr);;10967;Deutschland;13,415129853272;52,4949136718795;1;1;0,50;1;1;1;0;1;1;926
+Wall_123524;Wall CT, Freizeitpark Tegel an der Malche, Campestr. ;Berlin;Freizeitpark Tegel an der Malche, Campestr.  hinter 11 (0-24 Uhr);;13507;Deutschland;13,269153981268;52,5926752474714;1;1;0,50;1;1;1;1;1;0;359
+Wall_123562;Wall CT, Alt-Gatow;Berlin;Alt-Gatow hinter 65 (0-24 Uhr);;14089;Deutschland;13,1835823788549;52,4839311125327;1;1;0,50;1;1;1;1;1;1;802
+Wall_123563;Wall CT, Heerstr.;Berlin;Heerstr. vor 229 (0-24 Uhr);;13595;Deutschland;13,1949459985581;52,5133486477395;1;1;0,50;1;1;1;1;1;0;888
+Wall_123605;Wall CT, Rummelsburger Str.;Berlin;Rummelsburger Str.   (0-24 Uhr);;10315;Deutschland;13,5042350654638;52,5024718651538;1;1;0,50;1;1;1;1;1;0;930
+Wall_123608;Wall CT, Roederplatz ;Berlin;Roederplatz    (0-24 Uhr);;10367;Deutschland;13,4805928464488;52,5273350766078;1;1;0,50;1;1;1;1;1;0;931
+Wall_123610;Wall CT, Waldowstr.;Berlin;Waldowstr. ggü. 31 (0-24 Uhr);;13053;Deutschland;13,4856132711725;52,5480862995809;1;1;0,50;1;1;1;1;1;0;943
+Wall_123757;Wall CT, Niederneuendorfer Allee;Berlin;Niederneuendorfer Allee 11 (0-24 Uhr);;13587;Deutschland;13,2107808968145;52,5673817861734;1;1;0,50;1;1;1;1;1;0;928
+Wall_123759;Wall CT, Gärtnereiring;Berlin;Gärtnereiring ggü. 54 (0-24 Uhr);;13593;Deutschland;13,1464795858559;52,5237523272412;1;1;0,50;1;1;1;1;1;0;927
+Wall_123777;Wall CT, Swinemünder Str.;Berlin;Swinemünder Str. 34 (0-24 Uhr);;13355;Deutschland;13,3990246522732;52,5414239496499;1;1;0,50;1;1;1;1;1;0;941
+Wall_123792;Wall CT, Schönleinstr.;Berlin;Schönleinstr. ggü. 8 (0-24 Uhr);;10967;Deutschland;13,4206793049899;52,4917661055929;1;1;0,50;1;1;1;1;1;1;690
+Wall_123794;Wall CT, Hermann-Dorner-Allee;Berlin;Hermann-Dorner-Allee   (0-24 Uhr);;12487;Deutschland;13,5201486064444;52,4339902002955;1;1;0,50;1;1;1;0;1;0;923
+Wall_123795;Wall CT, Fasanerie;Berlin;Fasanerie 4-5 (0-24 Uhr);;13469;Deutschland;13,3647160616319;52,6074480821728;1;1;0,50;1;1;1;1;1;0;801
+Wall_123817;Wall CT, Alt-Buckow;Berlin;Alt-Buckow 25 (0-24 Uhr);;12349;Deutschland;13,4329282995192;52,4221482664283;1;1;0,50;1;1;1;0;1;0;924
+Wall_123829;Wall CT, Franz-Neumann-Platz, Pankower Allee;Berlin;Franz-Neumann-Platz, Pankower Allee ggü. 1 (0-24 Uhr);;13409;Deutschland;13,3648361228867;52,5636304223902;1;1;0,50;1;1;1;1;1;0;885
+Wall_123871;Wall CT, Nettelbeckplatz, Gerichtstr.;Berlin;Nettelbeckplatz, Gerichtstr. 31 (0-24 Uhr);;13347;Deutschland;13,3685793952837;52,5448781562188;1;1;0,50;1;1;1;1;1;1;938
+Wall_123874;Wall CT, Hansaplatz, Altonaer Str.;Berlin;Hansaplatz, Altonaer Str. ggü. 20-22 (0-24 Uhr);;10557;Deutschland;13,3405823087579;52,518103395511;1;1;0,50;1;1;1;0;1;1;745
+Wall_123902;Wall CT, Lietzenseepark, Kaiserdamm;Berlin;Lietzenseepark, Kaiserdamm ggü. 8 (0-24 Uhr);;14057;Deutschland;13,2909287253553;52,5102541197335;1;1;0,50;1;1;1;1;1;0;922
+Wall_123903;Wall CT, Stuttgarter Platz;Berlin;Stuttgarter Platz ggü. 15 (0-24 Uhr);;10627;Deutschland;13,3015037506634;52,5051426657702;1;1;0,50;1;1;1;0;1;1;920
+Wall_123922;Wall CT, Warnitzer Str.;Berlin;Warnitzer Str. 6 (0-24 Uhr);;13057;Deutschland;13,5200846668422;52,5662451876929;1;1;0,50;1;1;1;1;1;1;940
+Wall_123923;Wall CT, Sundgauer Str.;Berlin;Sundgauer Str. 109 (0-24 Uhr);;14167;Deutschland;13,2746496548478;52,4352336748842;1;1;0,50;1;1;1;0;1;0;906
+Wall_123924;Wall CT, Onkel-Tom-Str.;Berlin;Onkel-Tom-Str. 95 (0-24 Uhr);;14163;Deutschland;13,2517663858419;52,4489334009141;1;1;0,50;1;1;1;1;1;0;889
+Wall_123925;Wall CT, Argentinische Allee;Berlin;Argentinische Allee hinter 253 (0-24 Uhr);;14169;Deutschland;13,269614775171;52,4509071806212;1;1;0,50;1;1;1;0;1;1;313
+Wall_123973;Wall CT, An der Wuhle;Berlin;An der Wuhle ggü. 56 (0-24 Uhr);;12621;Deutschland;13,5667049289231;52,4868815190053;1;1;0,50;1;1;1;1;1;1;913
+Wall_123974;Wall CT, Köpenicker Str.;Berlin;Köpenicker Str. 259 A (0-24 Uhr);;12683;Deutschland;13,5595713172605;52,4793007169352;1;1;0,50;1;1;1;0;1;0;936
+Wall_124023;Wall CT, Weinbergspark, Veteranenstr.;Berlin;Weinbergspark, Veteranenstr. ggü. 22 (0-24 Uhr);;10119;Deutschland;13,4010517818427;52,5330296726165;1;1;0,50;1;1;1;0;1;1;747
+Wall_124025;Wall CT, Böcklerpark, Prinzenstr.;Berlin;Böcklerpark, Prinzenstr. 1  (0-24 Uhr);;10969;Deutschland;13,4067533804192;52,4967185513892;1;1;0,50;1;1;1;0;1;1;687
+Wall_124026;Wall CT, Lohmühleninsel, Lohmühlenstr.;Berlin;Lohmühleninsel, Lohmühlenstr.   (0-24 Uhr);;10997;Deutschland;13,4494981765747;52,4966697692871;1;1;0,50;1;1;1;1;1;1;918
+Wall_124087;Wall CT, Alt-Stralau, Tunnelstr.;Berlin;Alt-Stralau, Tunnelstr. hinter 12 (0-24 Uhr);;10245;Deutschland;13,4809014934618;52,4900209572925;1;1;0,50;1;1;1;1;1;1;876
+Wall_124125;Wall CT, Kienbergpark, Hellersdorfer Str.;Berlin;Kienbergpark, Hellersdorfer Str. 159 (0-24 Uhr);;12627;Deutschland;13,5910236814306;52,5313386636362;1;1;0,50;1;1;1;1;1;1;911
+Wall_124145;Wall CT, Schönagelstr.;Berlin;Schönagelstr. (0-24 Uhr);;12679;Deutschland;13,5701669923751;52,5485198695108;1;1;0,50;1;1;1;1;1;0;912
+Wall_124359;Wall CT, Schleidenplatz, Waldeyerstr.;Berlin;Schleidenplatz, Waldeyerstr. ggü. 5 (0-24 Uhr);;10247;Deutschland;13,472649347097;52,5156735344464;1;1;0,50;1;1;1;1;1;1;934
+Wall_124362;Wall CT, Heinrich-Heine-Str.;Berlin;Heinrich-Heine-Str. 16 (0-24 Uhr);;10179;Deutschland;13,4139043287576;52,5082658170487;1;1;0,50;1;1;1;0;1;0;748
+Wall_124364;Wall CT, Sellerpark, Sellerstr.;Berlin;Sellerpark, Sellerstr.   (0-24 Uhr);;13353;Deutschland;13,365743504824;52,5371567693436;1;1;0,50;1;1;1;1;1;1;925
+Wall_124366;Wall CT, Ratsgasse (Marktplatz-Fußgängerzone);Berlin;Ratsgasse (Marktplatz-Fußgängerzone)   (0-24 Uhr);;16727;Deutschland;13,17765;52,68761;1;1;0,50;1;0;0;0;2;0;
+Wall_124383;Wall CT, Soldiner Str.;Berlin;Soldiner Str. 77 (0-24 Uhr);;13359;Deutschland;13,3836397747329;52,559323179666;1;1;0,50;1;1;1;1;1;1;933
+Wall_124386;Wall CT, Ostender Str.;Berlin;Ostender Str. ggü. 12 (0-24 Uhr);;13353;Deutschland;13,3522985517933;52,5462708976409;1;1;0,50;1;1;1;1;1;1;765
+Wall_124396;Wall CT, Dianaplatz, Dianastr.;Berlin;Dianaplatz, Dianastr. hinter 59 a (0-24 Uhr);;13469;Deutschland;13,312223524878;52,6061583533857;1;1;0,50;1;1;1;1;1;0;937
+Wall_124414;Wall CT, Konrad-Wolf-Str.;Berlin;Konrad-Wolf-Str. ggü. 76 (0-24 Uhr);;13055;Deutschland;13,4813166509108;52,5388727382655;1;1;0,50;1;1;1;0;1;1;951
+Wall_124435;Wall CT, Südstern;Berlin;Südstern (0-24 Uhr);;10967;Deutschland;13,4073584199877;52,4894935876301;1;1;0,50;1;1;1;0;1;1;346
+Wall_124489;Wall CT, Meierottostr.;Berlin;Meierottostr. ggü. 8 (0-24 Uhr);;10719;Deutschland;13,3299735538891;52,4967472259807;1;1;0,50;1;1;1;0;1;0;946
+Wall_124513;Wall CT, Winterfeldtplatz, Gleditschstr.;Berlin;Winterfeldtplatz, Gleditschstr. vor 5 (0-24 Uhr);;10781;Deutschland;13,355023;52,496171;1;1;0,50;1;1;1;1;1;1;917
+Wall_124549;Wall CT, Alt-Lübars;Berlin;Alt-Lübars 19 B (0-24 Uhr);;13469;Deutschland;13,3587134690709;52,6209848295185;1;1;0,50;1;1;1;1;1;0;950
+Wall_124551;Wall CT, Dolgenseestr.;Berlin;Dolgenseestr. ggü. 9 E (0-24 Uhr);;10319;Deutschland;13,5075727419539;52,492378564872;1;1;0,50;1;1;1;1;1;0;949
+Wall_124552;Wall CT, Dr.-Ilse-Kassel-Platz, Schloßstr.;Berlin;Dr.-Ilse-Kassel-Platz, Schloßstr. ggü. 5 (0-24 Uhr);;13467;Deutschland;13,3133593201459;52,6169709008111;1;1;0,50;1;1;1;1;1;0;945
+Wall_124583;Wall CT, Oberbaumstr.;Berlin;Oberbaumstr. vor 11 (0-24 Uhr);;10997;Deutschland;13,4434936687943;52,500842056772;1;1;0,50;1;1;1;0;1;1;688
+Wall_124615;Wall CT, Sportforum, Weißenseer Weg;Berlin;Sportforum, Weißenseer Weg vor 53 (0-24 Uhr);;13053;Deutschland;13,4723838740929;52,5378742065812;1;1;0,50;1;1;1;1;1;1;909
+Wall_124630;Wall CT, Crellemarkt, Großgörschenstr.;Berlin;Crellemarkt, Großgörschenstr. ggü. 31 (0-24 Uhr);;10827;Deutschland;13,3658619399184;52,4913189204374;1;1;0,50;1;1;1;0;1;1;935
+Wall_124686;Wall CT, Alt-Köpenick;Berlin;Alt-Köpenick vor 32 (0-24 Uhr);;12555;Deutschland;13,5738106656173;52,4453261764499;1;1;0,50;1;1;1;1;1;1;795
+Wall_124690;Wall CT, Egon-Erwin-Kisch-Str.;Berlin;Egon-Erwin-Kisch-Str. vor 106 (0-24 Uhr);;13059;Deutschland;13,5134186492035;52,5677931494833;1;1;0,50;1;1;1;1;1;0;893
+Wall_125174;Wall CT, Gothaer Str.;Berlin;Gothaer Str. 37 (0-24 Uhr);;12629;Deutschland;13,5889935903744;52,5396036363434;1;1;0,50;1;1;1;0;1;0;910
+Wall_125237;Wall CT, Afrikanische Str.;Berlin;Afrikanische Str. ggü. 92 (0-24 Uhr);;13351;Deutschland;13,3365372138437;52,5526408835019;1;1;0,50;1;1;1;1;1;1;921
+Wall_125245;Wall CT, Grüntaler Str.;Berlin;Grüntaler Str. 41 (0-24 Uhr);;13359;Deutschland;13,3936098132465;52,5563725357538;1;1;0,50;1;1;1;1;1;1;948
+Wall_125298;Wall CT, Volkspark Hasenheide;Berlin;Volkspark Hasenheide   (0-24 Uhr);;10965;Deutschland;13,4171361642608;52,4844544115752;1;1;0,50;1;1;1;1;1;1;705
+Wall_125473;Wall CT, Emma-Ihrer-Str.;Berlin;Emma-Ihrer-Str. hinter ggü. 39 (0-24 Uhr);;10317;Deutschland;13,4786084171703;52,4975044587666;1;1;0,50;1;1;1;1;1;0;952
+Wall_125493;Wall CT, Schützenstr.;Berlin;Schützenstr. hinter 10 (0-24 Uhr);;13585;Deutschland;13,2102945837695;52,5501501894777;1;1;0,50;1;1;1;0;1;0;953
+Wall_3389;Wall CT, Unter den Linden;Berlin;Unter den Linden 76 (0-24 Uhr);;10117;Deutschland;13,3812694549561;52,5166091918945;1;1;0,50;1;0;0;0;2;0;178
+Wall_34518;Toilette Gutsmuthsweg;Berlin;Trakehner Allee vor ggü. 3 (bei Veranst.);;14053;Deutschland;13,2435201;52,512991;1;0;0,00;0;0;0;0;4;0;276
+Wall_34520;Toilette Gutsmuthsweg (Eingang Hockey-Stadion);Berlin;Olympischer Platz 6 (bei Veranst.);;14053;Deutschland;13,24459;52,51562;1;0;0,00;0;0;0;0;4;0;275
+Wall_34522;Toilette Coubertinplatz;Berlin;Trakehner Allee hinter ggü. 7 (bei Veranst.);;14053;Deutschland;13,240781;52,5121801;1;0;0,00;0;0;0;0;4;0;274
+Wall_34523;Toilette Eingang Reithalle / Tunnelweg;Berlin;Jesse-Owens-Allee vor ggü. 2 (bei Veranst.);;14053;Deutschland;13,23694025;52,51064618;1;0;0,00;0;0;0;0;4;0;200
+Wall_34524;Toilette U-Bhf. Olympia-Stadion;Berlin;Rossitter Platz (bei Veranst.);;14053;Deutschland;13,24938;52,51746;1;0;0,00;0;0;0;0;4;0;873
+Wall_5329;Toilette Osnabrücker Str.;Berlin;Mierendorffplatz (7-22 Uhr);;10589;Deutschland;13,3043888888889;52,5255277777778;1;1;0,00;0;0;0;0;5;0;290
+Wall_5330;Toilette Budapester Str.;Berlin;Breitscheidplatz (9-22 Uhr);;10789;Deutschland;13,3361111111111;52,5049444444444;1;1;0,50;0;0;0;0;3;0;191
+Wall_5331;Toilette Joachimsthaler Str.;Berlin;Joachimsthaler Platz, Kurfürstendamm 226 (7-22 Uhr);;10719;Deutschland;13,3308611111111;52,5033333333333;1;0;0,50;0;0;0;0;3;0;198
+Wall_5332;Toilette Olympischer Platz;Berlin;Olympiastadion, Gutsmuthsweg (bei Veranst.);;14053;Deutschland;13,2440277777778;52,5142222222222;1;0;0,00;0;0;0;0;5;0;171
+Wall_5333;Toilette Glockenturmstr. 1;Berlin;Waldbühne/Maifeld, Passenheimer Str. (bei Veranst.);;14053;Deutschland;13,2306388888889;52,5136111111111;1;0;0,00;0;0;0;0;5;0;203
+Wall_5335;Toilette Reichsstr.;Berlin;Theodor-Heuss-Platz ggü. 4-6 (7-22 Uhr);;14052;Deutschland;13,272577;52,509679;1;0;0,00;0;0;0;0;5;0;210
+Wall_5336;Toilette Aßmannstr. (Marktplatz Friedrichshagen);Berlin;Bölschestr. 113 (7-22 Uhr);;12587;Deutschland;13,6245833333333;52,4506666666667;1;1;0,00;0;0;0;0;5;0;261
+Wall_5338;Toilette Spielplatz;Berlin;Viktoriapark (0-24 Uhr);;10965;Deutschland;13,3778611111111;52,4875;1;0;0,00;0;0;0;0;5;0;212
+Wall_5339;Toilette;Berlin;Alexanderplatz 1 (7-22 Uhr);;10178;Deutschland;13,412954;52,521463;1;1;0,50;0;0;0;0;3;0;2
+Wall_5340;Toilette Spandauer Str. (ggü. Nikolaiviertel);Berlin;Rathausstr. ggü. 17 (10-18 Uhr);;10178;Deutschland;13,4064166666667;52,5184722222222;1;1;0,50;0;0;0;0;3;0;183
+Wall_5341;Toilette Gutschmidtstr. (am U-Bhf.);Berlin;Britz-Süd , Fritz-Reuter-Allee (7-22 Uhr);;12359;Deutschland;13,4473888888889;52,4373611111111;1;0;0,00;0;0;0;0;5;0;227
+Wall_5342;Toilette Sonnenallee;Berlin;Elbestr. 39 (7-22 Uhr);;12045;Deutschland;13,438239;52,482874;1;0;0,00;0;0;0;0;5;0;228
+Wall_5343;Toilette Residenzstr.;Berlin;Schäfersee , Am Schäfersee ggü. 1 (7-22 Uhr);;13407;Deutschland;13,3638055555556;52,5641666666667;1;0;0,00;0;0;0;0;5;0;238
+Wall_5344;Toilette Burscheider Weg;Berlin;Haselhorster Damm 23 (0-24 Uhr);;13599;Deutschland;13,2382777777778;52,5444722222222;1;1;0,00;0;0;0;0;5;0;266
+Wall_5345;Toilette Quellweg;Berlin;Jugendplatz , Jugendweg (0-24 Uhr);;13629;Deutschland;13,2698888888889;52,5378472222222;1;0;0,00;0;0;0;0;5;0;243
+Wall_5346;Toilette Obstallee;Berlin;Magistratsweg 8a (0-24 Uhr);;13593;Deutschland;13,1631666666667;52,52125;1;1;0,00;0;0;0;0;5;0;267
+Wall_5347;Toilette Breite Str.;Berlin;Mönchstr. 8 (0-24 Uhr);;13597;Deutschland;13,2054861111111;52,5376388888889;1;1;0,00;0;0;0;0;5;0;280
+Wall_5348;Toilette Breite Str.;Berlin;Spandauer Markt , Markt 5 (7-22 Uhr);;13597;Deutschland;13,2050277777778;52,5368611111111;1;1;0,20;0;0;0;0;3;0;4
+Wall_5349;Toilette Holbeinstr. (Ludwig-Beck-Platz);Berlin;Moltkestr. (0-24 Uhr);;12203;Deutschland;13,3120833333333;52,4426666666667;1;0;0,00;0;0;0;0;5;0;255
+Wall_5350;Toilette Oswald-Schumann-Platz (Tiergarten);Berlin;Altonaer Str. (0-24 Uhr);;10557;Deutschland;13,3452222222222;52,5155555555556;1;0;0,00;0;0;0;0;5;0;214
+Wall_5351;Toilette Großer Stern;Berlin;Großer Stern (Haus C) , Str. des 17. Juni (7-22 Uhr);;10785;Deutschland;13,3484166666667;52,5142361111111;1;0;0,00;0;0;0;0;5;0;192
+Wall_5353;Toilette Konstanzer Str.;Berlin;Preußenpark , Brandenburgische Str. (7-22 Uhr);;10707;Deutschland;13,310916;52,493104;1;1;0,00;0;0;0;0;5;0;206
+Wall_5354;Toilette Livländische Str.;Berlin;Volkspark Wilmersdorf , Am Volkspark (7-22 Uhr);;10715;Deutschland;13,326417;52,48288;1;0;0,00;0;0;0;0;5;0;199
+Wall_5355;Toilette Anlegestelle Wannsee (hi. Kronprinzessinenweg);Berlin;Wannsee , Rönnebypromenade (07-22 Uhr);;14109;Deutschland;13,1762222222222;52,4214722222222;1;1;0,00;0;0;0;0;5;0;847
+Wall_5356;Toilette Arndtstr.;Berlin;Chamissoplatz 1 (0-24 Uhr);;10965;Deutschland;13,3909027777778;52,4885277777778;1;0;0,00;0;0;0;0;4;0;211
+Wall_5358;Toilette Karl-Marx-Str.;Berlin;Kirchhofstr. (0-24 Uhr);;12051;Deutschland;13,4413888888889;52,4715555555556;1;0;0,00;0;0;0;0;4;0;229
+Wall_5359;Toilette Fellbacher Str.;Berlin;Fellbacher Platz , Heinsestr. (0-24 Uhr);;13467;Deutschland;13,3076111111111;52,6161388888889;1;0;0,00;0;0;0;0;4;0;234
+Wall_5360;Toilette Schloßstr.;Berlin;Berliner Str. 105-106 (0-24 Uhr);;13507;Deutschland;13,283026;52,590697;1;0;0,00;0;0;0;0;4;0;264
+Wall_5361;Toilette Mariendorfer Damm;Berlin;Friedenstr. (0-24 Uhr);;12107;Deutschland;13,386907;52,438695;1;0;0,00;0;0;0;0;4;0;257
+Wall_5362;Toilette Havelberger Str.;Berlin;Stephanplatz , Stephanstr. (0-24 Uhr);;10559;Deutschland;13,3470138888889;52,5335277777778;1;0;0,00;0;0;0;0;4;0;224
+Wall_5363;Toilette Oldenburger Str.;Berlin;Unionplatz , Siemensstr. (0-24 Uhr);;10551;Deutschland;13,3367777777778;52,5332222222222;1;0;0,00;0;0;0;0;4;0;226
+Wall_5364;Toilette Kiautschoustr.;Berlin;Pekinger Platz , Nordufer (0-24 Uhr);;13353;Deutschland;13,35325;52,5399027777778;1;0;0,00;0;0;0;0;4;0;223
+Wall_5365;Toilette Scholzplatz stew. (ex. Scholzplatz);Berlin;Heerstr. (0-24 Uhr);;14055;Deutschland;13,2276388888889;52,5065;1;0;0,00;0;0;0;0;5;0;196
+Wall_5366;Toilette Wilmersdorfer Str. staw. (Parkplatz);Berlin;Schillerstr. (0-24 Uhr);;10625;Deutschland;13,3067361111111;52,5101666666667;1;0;0,00;0;0;0;0;5;0;209
+Wall_5367;Toilette Haus Nr. 63-65 (Badestelle Saatwinkel) (ex. Saatwinkel);Berlin;Im Saatwinkel (0-24 Uhr);;13599;Deutschland;13,2465277777778;52,5616666666667;1;0;0,00;0;0;0;0;5;0;235
+Wall_5368;Toilette verlängerte Sterkrader Str.;Berlin;Flughafensee Tegel , Schwarzer Weg (0-24 Uhr);;13507;Deutschland;13,2855277777778;52,5707777777778;1;0;0,00;0;0;0;0;5;0;
+Wall_5369;Toilette Zufahrt Insel Scharfenberg/Freibad Tegeler See (ex. Strandbad Tegel);Berlin;Schwarzer Weg (0-24 Uhr);;13505;Deutschland;13,2432222222222;52,576;1;0;0,00;0;0;0;0;5;0;240
+Wall_5370;Toilette Revierförsterei Tegelsee/Parkplatz (ex. Revierförsterei Tegel Schwarzer Weg);Berlin;Schwarzer Weg 71 (0-24 Uhr);;13505;Deutschland;13,2538055555556;52,5853888888889;1;0;0,00;0;0;0;0;5;0;239
+Wall_5371;Toilette Uferweg (Große Badewiese) (ex. Große Badewiese/Waldschluchtpfad);Berlin;verlängerter Waldschluchtpfad (0-24 Uhr);;14089;Deutschland;13,1815555555556;52,4698333333333;1;0;0,00;0;0;0;0;5;0;250
+Wall_5373;Toilette Haus Nr. 15 (ex. Groß Glienicker See/Badewiese);Berlin;Groß Glienicker See , Uferpromenade (0-24 Uhr);;14089;Deutschland;13,119;52,4711944444445;1;0;0,00;0;0;0;0;5;0;248
+Wall_5374;Toilette Im Dohl (Groß Glienicker See/DLRG-Wasserrettungsstation) (ex. Groß Glienicker See/Pferdek.);Berlin;Groß Glienicker See , verlängerte Uferpromenade (0-24 Uhr);;14089;Deutschland;13,1154583333333;52,46125;1;0;0,00;0;0;0;0;5;0;249
+Wall_5376;Toilette Bürgerablage (Badestelle);Berlin;Bürgerablage , Niederneuendorfer Allee 80 (0-24 Uhr);;13587;Deutschland;13,2100833333333;52,5852222222222;1;0;0,00;0;0;0;0;5;0;244
+Wall_5377;Toilette Uferpromenade (ex. Aalemannkanal);Berlin;Rustweg (0-24 Uhr);;13587;Deutschland;13,2191666666667;52,5753888888889;1;0;0,00;0;0;0;0;5;0;245
+Wall_5378;Toilette Tiergarten-Unterschleuse (ex. Tiergarten Schleuse);Berlin;Großer Tiergarten , Tiergartenufer (0-24 Uhr);;10787;Deutschland;13,3367222222222;52,5126111111111;1;0;0,00;0;0;0;0;5;0;225
+Wall_5379;Toilette Spreeweg (Tiergarten Spielplatz) (ex. Tiergarten Spielplatz);Berlin;Großer Tiergarten , Bellevueallee (0-24 Uhr);;10557;Deutschland;13,3566388888889;52,5163333333333;1;0;0,00;0;0;0;0;5;0;216
+Wall_5381;Toilette Transvaalstr. (Plötzensee/Volkspark Rehberge) (ex. Dohnagestell / Plötzensee);Berlin;Dohnagestell (0-24 Uhr);;13351;Deutschland;13,3299722222222;52,5467222222222;1;0;0,00;0;0;0;0;5;0;
+Wall_5382;Toilette Hüttenweg/AVUS A115;Berlin;Kronprinzessinnenweg (0-24 Uhr);;14193;Deutschland;13,23525;52,4689722222222;1;0;0,00;0;0;0;0;5;0;254
+Wall_5383;Toilette (Wanderwegekreuzung mit Umgehungschaussee) (ex.Grunewaldsee Ost);Berlin;Grunewaldsee-Ostufer (0-24 Uhr);;14193;Deutschland;13,2661111111111;52,4718055555556;1;0;0,00;0;0;0;0;5;0;
+Wall_5384;Toilette Parkplatz Lieper Bucht (ex. Lieper Bucht/Parkplatz Havelchaussee);Berlin;Havelchaussee (0-24 Uhr);;14193;Deutschland;13,1981666666667;52,4695;1;0;0,00;0;0;0;0;5;0;268
+Wall_5385;Toilette Friedenthalpark (Badewiese Halensee) (ex. Halensee/Badewiese);Berlin;Halensee , Halenseestr. (0-24 Uhr);;14193;Deutschland;13,2833333333333;52,4956111111111;1;0;0,00;0;0;0;0;5;0;195
+Wall_5386;Toilette Neuer Schildhornweg (Badewiese Teufelssee) (ex. Teufelssee);Berlin;Teufelssee , Schildhornweg (0-24 Uhr);;14193;Deutschland;13,2346944444444;52,4895277777778;1;0;0,00;0;0;0;0;5;0;208
+Wall_5387;Toilette Parkplatz Große Steinlake;Berlin;Havelchaussee (0-24 Uhr);;14109;Deutschland;13,1898888888889;52,4545833333333;1;0;0,00;0;0;0;0;5;0;
+Wall_5388;Toilette Wasserrettungsstation Heckeshorn/Großer Wannsee;Berlin;Heckeshorn , Uferweg (0-24 Uhr);;14109;Deutschland;13,1650555555556;52,4348055555555;1;0;0,00;0;0;0;0;5;0;253
+Wall_5389;Toilette Pfaueninselchaussee (Wasserrettungsstation Jagen 97);Berlin;Uferpromenade (0-24 Uhr);;14109;Deutschland;13,1294166666667;52,4293888888889;1;0;0,00;0;0;0;0;5;0;270
+Wall_5390;Toilette Heuweg (Wasserrettungsstation Alter Hof/Jagen 95);Berlin;Uferpromenade (0-24 Uhr);;14109;Deutschland;13,1432222222222;52,4324166666667;1;0;0,00;0;0;0;0;5;0;272
+Wall_5391;Toilette Parkplatz Südufer Krumme Lanke;Berlin;Krumme Lanke , Fischerhüttenweg (0-24 Uhr);;14193;Deutschland;13,2288333333333;52,44775;1;0;0,00;0;0;0;0;5;0;251
+Wall_5392;Toilette Paul-Ernst-Park (Schlachtensee);Berlin;Schlachtensee , Am Schlachtensee (0-24 Uhr);;14129;Deutschland;13,2154722222222;52,4407777777778;1;0;0,00;0;0;0;0;5;0;256
+Wall_5393;Toilette Schönhauser Allee;Berlin;Senefelderplatz , Metzer Str. (0-24 Uhr);;10119;Deutschland;13,4128888888889;52,5324444444444;1;0;0,00;0;0;0;0;4;0;232
+Wall_5394;Toilette Haus Nr. 59 (Badestelle/Rettungsstelle Havel) (ex. Heiligensee/Badewiese);Berlin;Sandhauser Str. (0-24 Uhr);;13503;Deutschland;13,2215555555556;52,5943611111111;1;0;0,00;0;0;0;0;5;0;237
+Wall_54774;Toilette Dr.-Kleusberg-Promenade;Berlin;Scharfe Lanke ggü. 133 B (0-24 Uhr);;13589;Deutschland;13,18521;52,50165;1;0;0,00;0;0;0;0;5;0;247
+Fremd_1;Toilette Am Denkmal für die ermordeten Juden Europas (Hannah-Arendt-Straße | Ecke Cora-Berliner-Straße) ;Berlin;Am Denkmal für die ermordeten Juden Europas (Hannah-Arendt-Straße | Ecke Cora-Berliner-Straße) ;;10117;Deutschland;13,38045;52,51376;0;1;0,00;0;0;0;0;6;0;
+Fremd_10;Toilette Tempelhofer Feld;Berlin;Tempelhofer Feld;;10965;Deutschland;13,40874;52,4793;0;0;0,00;0;0;0;0;6;0;
+Fremd_116;Toilette Friedhof Heerstraße (an der Friedhofskapelle);Berlin;Friedhof Heerstraße (an der Friedhofskapelle);;14053;Deutschland;13,2490780297724;52,5148825012018;0;0;0,00;0;0;0;0;6;0;
+Fremd_117;Toilette Friedhof Ruhleben (altes Verwaltungsgebäude);Berlin;Friedhof Ruhleben (altes Verwaltungsgebäude);;13597;Deutschland;13,23108;52,525284;0;0;0,00;0;0;0;0;6;0;
+Fremd_118;Toilette Friedhof Heerstraße (Eingangsbereich Insterburgallee);Berlin;Friedhof Heerstraße (Eingangsbereich Insterburgallee);;14053 ;Deutschland;13,253641;52,512298;0;0;0,00;0;0;0;0;6;0;
+Fremd_119;Toilette Friedhof Grunewald;Berlin;Friedhof Grunewald;;10711;Deutschland;13,285584;52,49824;0;1;0,00;0;0;0;0;6;0;
+Fremd_12;Toilette Wannsee (Sommerbetrieb);Berlin;Wannsee (Sommerbetrieb);;14129;Deutschland;13,17935;52,43684;0;0;0,00;0;0;0;0;6;0;
+Fremd_120;Toilette Friedhof Schmargendorf;Berlin;Friedhof Schmargendorf;;14199 ;Deutschland;13,292135;52,473386;0;0;0,00;0;0;0;0;6;0;
+Fremd_121;Toilette Friedhof Wilmersdorf;Berlin;Friedhof Wilmersdorf;;10713 ;Deutschland;13,310068;52,487212;0;1;0,00;0;0;0;0;6;0;
+Fremd_122;Toilette Fennpfuhlpark;Berlin;Fennpfuhlpark;;10369 ;Deutschland;13,4770118599248;52,5294911931032;0;0;0,00;0;0;0;0;6;0;
+Fremd_123;Toilette Rummelsburger Bucht;Berlin;Rummelsburger Bucht;;10317 ;Deutschland;13,4810596008142;52,4955882745094;0;0;0,00;0;0;0;0;6;0;
+Fremd_124;Toilette Landschaftspark Herzberge;Berlin;Landschaftspark Herzberge;;10315;Deutschland;13,5082753870296;52,5217602324643;0;1;0,00;0;0;0;0;6;0;
+Fremd_125;Toilette Kienbergpark;Berlin;Kienbergpark;;12683 ;Deutschland;13,5894403548536;52,5306179217177;0;0;0,00;0;0;0;0;6;0;
+Fremd_126;Toilette Rotes Rathaus;Berlin;Rotes Rathaus;;10178 ;Deutschland;13,40631;52,51849;0;0;0,50;1;0;0;1;6;0;
+Fremd_127;Toilette Kleiner Tiergarten | Stromstraße;Berlin;Kleiner Tiergarten | Stromstraße;;10551 ;Deutschland;13,34312;52,52585;0;0;0,00;0;0;0;0;6;0;
+Fremd_128;Toilette Volkspark Rehberge, Eingang Afrikanische Straße | Ottawi Straße I Dohnagestell;Berlin;Volkspark Rehberge, Eingang Afrikanische Straße | Ottawi Straße I Dohnagestell;;13351 ;Deutschland;13,33705;52,55272;0;0;0,00;0;0;0;0;6;0;
+Fremd_129;Toilette Hasenheide - Hasenschänke;Berlin;Hasenheide - Hasenschänke;;10965 ;Deutschland;13,4165756212721;52,4825703835906;0;0;0,00;0;0;0;0;6;0;
+Fremd_13;Toilette Leopoldplatz (Schulstraße | Turiner Straße);Berlin;Leopoldplatz (Schulstraße | Turiner Straße);;13347;Deutschland;13,36125;52,54789;0;1;0,10;1;0;0;0;6;0;
+Fremd_130;Toilette Friedhof Lilienthalstraße - Lilienthalstraße 7;Berlin;Friedhof Lilienthalstraße - Lilienthalstraße 7;;10965 ;Deutschland;13,4083137021765;52,486669230614;0;0;0,00;0;0;0;0;6;0;
+Fremd_131;Toilette Friedhof Columbiadamm - Columbiadamm 122;Berlin;Friedhof Columbiadamm - Columbiadamm 122;;10965 ;Deutschland;13,4084580865748;52,4803627550213;0;0;0,00;0;0;0;0;6;0;
+Fremd_132;Toilette Friedhof Urnenhain - Leonberger Ring 54;Berlin;Friedhof Urnenhain - Leonberger Ring 54;;12349 ;Deutschland;13,4264469843277;52,4281344434783;0;0;0,00;0;0;0;0;6;0;
+Fremd_133;Toilette Friedhof Alt-Buckow - Alt-Buckow 39B;Berlin;Friedhof Alt-Buckow - Alt-Buckow 39B;;12349 ;Deutschland;13,4305749941639;52,4214775765321;0;0;0,00;0;0;0;0;6;0;
+Fremd_134;Toilette Friedhof Koppelweg - Koppelweg 10;Berlin;Friedhof Koppelweg - Koppelweg 10;;12347 ;Deutschland;13,4318942232256;52,4450703061898;0;0;0,00;0;0;0;0;6;0;
+Fremd_135;Toilette Parkfriedhof Neukölln - Buckower Damm 148;Berlin;Parkfriedhof Neukölln - Buckower Damm 148;;12349 ;Deutschland;13,4325483478993;52,4311522292827;0;0;0,00;0;0;0;0;6;0;
+Fremd_136;Toilette Friedhof Buschkrugallee - Buschkrugallee 38;Berlin;Friedhof Buschkrugallee - Buschkrugallee 38;;12347;Deutschland;13,4462947014778;52,460396974104;0;0;0,00;0;0;0;0;6;0;
+Fremd_137;Toilette Café im Park am Buschkrug;Berlin;Café im Park am Buschkrug;;12359 ;Deutschland;13,4511717779569;52,4538987930298;0;0;0,00;0;0;0;0;6;0;
+Fremd_138;Toilette Friedhof Rudow - Köpenicker Straße 131;Berlin;Friedhof Rudow - Köpenicker Straße 131;;12355 ;Deutschland;13,5039574900312;52,4209827871531;0;0;0,00;0;0;0;0;6;0;
+Fremd_139;Toilette Kiosk im Nordpark;Berlin;Kiosk im Nordpark;;12355 ;Deutschland;13,5062657600599;52,4052645026022;0;0;0,00;0;0;0;0;6;0;
+Fremd_140;Toilette Mauerpark(Erweiterung);Berlin;Mauerpark(Erweiterung);;13355 ;Deutschland;13,4011410356316;52,5440106203007;0;0;0,00;0;0;0;0;6;0;
+Fremd_141;Toilette Flughafensee Tegel (Bernauer/Sterkraderstr.);Berlin;Flughafensee Tegel (Bernauer/Sterkraderstr.);;13507 ;Deutschland;13,28361;52,56961;0;0;0,00;0;0;0;0;6;0;
+Fremd_142;Toilette Franz-Neumann-Platz;Berlin;Franz-Neumann-Platz;;13409 ;Deutschland;13,3649827687079;52,563092080077;0;0;0,00;0;0;0;0;6;0;
+Fremd_143;Toilette Familienfarm Lübars;Berlin;Familienfarm Lübars;;13469;Deutschland;13,3675406354712;52,60806631731;0;0;0,00;0;0;0;0;6;0;
+Fremd_144;Toilette Am Kiesteich 50 (Parkplatz Gr. Spektesee);Berlin;Am Kiesteich 50 (Parkplatz Gr. Spektesee);;13589;Deutschland;13,1648593254089;52,5488398803196;0;0;0,00;0;0;0;0;6;0;
+Fremd_145;Toilette Landhausgarten Fraenkel;Berlin;Landhausgarten Fraenkel;;14089;Deutschland;13,3607667983602;52,4292302962647;0;0;0,00;0;0;0;0;6;0;
+Fremd_146;Toilette Landschaftsfriedhof Gatow;Berlin;Landschaftsfriedhof Gatow;;14089;Deutschland;13,1547684974975;52,4970888408983;0;0;0,00;0;0;0;0;6;0;
+Fremd_147;Toilette Friedhof in den Kisseln;Berlin;Friedhof in den Kisseln;;13589;Deutschland;13,1745397596487;52,5591910847752;0;0;0,00;0;0;0;0;6;0;
+Fremd_148;Toilette Friedhof in den Kisseln;Berlin;Friedhof in den Kisseln;;13589;Deutschland;13,1772427123062;52,5556295745794;0;0;0,00;0;0;0;0;6;0;
+Fremd_149;Toilette Friedhof in den Kisseln;Berlin;Friedhof in den Kisseln;;13589;Deutschland;13,1880450308507;52,5564239244338;0;0;0,00;0;0;0;0;6;0;
+Fremd_15;Toilette Volkspark Friedrichshain | Neuer Hain;Berlin;Volkspark Friedrichshain | Neuer Hain;;10249;Deutschland;13,43486;52,52773;0;1;0,00;0;0;0;0;6;0;
+Fremd_150;Toilette Friedhof Staaken;Berlin;Friedhof Staaken;;13591;Deutschland;13,1327099066647;52,5252770045916;0;0;0,00;0;0;0;0;6;0;
+Fremd_151;Toilette Pfaueninselchaussee Rettungsstation Jagen 97;Berlin;Pfaueninselchaussee Rettungsstation Jagen 97;;14109;Deutschland;13,21491;52,44044;0;0;0,00;0;0;0;0;6;0;
+Fremd_152;Toilette Südende Schlachtensee ggü. Nr. 145;Berlin;Südende Schlachtensee ggü. Nr. 145;;14129;Deutschland;13,25644;52,43837;0;0;0,00;0;0;0;0;6;0;
+Fremd_153;Toilette Friedenstr. 8-10, 14109 Berlin;Berlin;Friedenstr. 8-10, 14109 Berlin;;14109;Deutschland;13,1416478927897;52,4136329302284;0;0;0,00;0;0;0;0;6;0;
+Fremd_154;Toilette Königin-Luise-Str. 57 (Friedhof), 14195 Berlin;Berlin;Königin-Luise-Str. 57 (Friedhof), 14195 Berlin;;14195;Deutschland;13,2861241807067;52,4588973045787;0;0;0,00;0;0;0;0;6;0;
+Fremd_155;Toilette Thuner Platz 2-4 (Friedhof), 12205 Berlin;Berlin;Thuner Platz 2-4 (Friedhof), 12205 Berlin;;12205;Deutschland;13,2963370903293;52,4234425105647;0;0;0,00;0;0;0;0;6;0;
+Fremd_156;Toilette Bergstr. 38 (Friedhof), 12169 Berlin;Berlin;Bergstr. 38 (Friedhof), 12169 Berlin;;12169;Deutschland;13,3421494600363;52,4586232287516;0;0;0,00;0;0;0;0;6;0;
+Fremd_157;Toilette Pächter der Gewerbeeinheit - (Perelsplatz 1, 12159 Berlin) während der Öffnungszeiten;Berlin;Pächter der Gewerbeeinheit - (Perelsplatz 1, 12159 Berlin) während der Öffnungszeiten;;12159;Deutschland;13,3351537042024;52,475975546113;0;0;0,00;0;0;0;0;6;0;
+Fremd_158;Toilette Rathaus Schöneberg,  John-F.-Kennedy-Platz;Berlin;Rathaus Schöneberg,  John-F.-Kennedy-Platz;;10825;Deutschland;13,3440246979359;52,4847988958708;0;1;0,00;0;0;0;0;6;0;
+Fremd_159;Toilette BDG Manteuffelstraße 63 12103 Berlin;Berlin;BDG Manteuffelstraße 63 12103 Berlin;;12103;Deutschland;13,3782413386677;52,4639879814489;0;1;0,00;0;0;0;0;6;0;
+Fremd_16;Toilette Oranienplatz;Berlin;Oranienplatz;;10969;Deutschland;13,41514;52,50263;0;0;0,00;0;0;0;0;6;0;
+Fremd_160;Toilette BDG Rathausstraße 27 / Kaiserstraße 10105 Berlin;Berlin;BDG Rathausstraße 27 / Kaiserstraße 10105 Berlin;;10105;Deutschland;13,3791709146893;52,4458917399195;0;1;0,00;0;0;0;0;6;0;
+Fremd_161;Toilette BDG  Strelitzstraße 15/17 / Machonstraße 10105 Berlin;Berlin;BDG  Strelitzstraße 15/17 / Machonstraße 10105 Berlin;;10105;Deutschland;13,3830634293998;52,4493237907658;0;1;0,00;0;0;0;0;6;0;
+Fremd_162;Toilette Pächter der Gewerbeeinheit -  (Alt-Tempelhof 21,  12103 Berlin) während der Öffnungszeiten;Berlin;Pächter der Gewerbeeinheit -  (Alt-Tempelhof 21,  12103 Berlin) während der Öffnungszeiten;;12103;Deutschland;13,3852609888443;52,4660014651421;0;0;0,00;0;0;0;0;6;0;
+Fremd_163;Toilette Rathaus Tempelhof, Tempelhofer Damm 165;Berlin;Rathaus Tempelhof, Tempelhofer Damm 165;;12099;Deutschland;13,386006542689;52,4624469506412;0;1;0,00;0;0;0;0;6;0;
+Fremd_164;Toilette Gemeinschaftshaus Lichtenrade Barnetstraße 11, 12305 Berlin;Berlin;Gemeinschaftshaus Lichtenrade Barnetstraße 11, 12305 Berlin;;12305;Deutschland;13,4055541117744;52,3943384481725;0;1;0,00;0;0;0;0;6;0;
+Fremd_165;Toilette Rathaus Neue Krugallee 4,12435 Berlin;Berlin;Rathaus Neue Krugallee 4,12435 Berlin;;12435;Deutschland;13,480269350458;52,4835112715184;0;1;0,00;0;0;0;0;6;0;
+Fremd_166;Toilette Friedhof Baumschulenweg Warteraum, Kiefholzstraße 221-228, 12437 Berlin;Berlin;Friedhof Baumschulenweg Warteraum, Kiefholzstraße 221-228, 12437 Berlin;;12437;Deutschland;13,49343;52,46053;0;0;0,00;0;0;0;0;6;0;
+Fremd_167;Toilette Friedhof Baumschulenweg,Öffentl.;Berlin;Friedhof Baumschulenweg,Öffentl.;;12437;Deutschland;13,49379;52,46054;0;0;0,00;0;0;0;0;6;0;
+Fremd_168;Toilette Bürgeramt Michael-Brückner-Str. 1, 12439 Berlin;Berlin;Bürgeramt Michael-Brückner-Str. 1, 12439 Berlin;;12439;Deutschland;13,510797028292;52,4562019343766;0;1;0,00;0;0;0;0;6;0;
+Fremd_169;Toilette Mittelpunktbibliothek Michael-Brückner-Str. 9, 12439 Berlin;Berlin;Mittelpunktbibliothek Michael-Brückner-Str. 9, 12439 Berlin;;12439;Deutschland;13,5142103972727;52,4539572010694;0;0;0,00;0;0;0;0;6;0;
+Fremd_17;Toilette Cuvrystraße;Berlin;Cuvrystraße;;10997;Deutschland;13,44417;52,49827;0;0;0,00;0;0;0;0;6;0;
+Fremd_170;Toilette Bürgerhaus Altglienicke Ortolfstr. 182-184, 12524 Berlin;Berlin;Bürgerhaus Altglienicke Ortolfstr. 182-184, 12524 Berlin;;12524;Deutschland;13,5285371046408;52,4031933809009;0;1;0,00;0;0;0;0;6;0;
+Fremd_171;Toilette Friedh. Oberschöneweide, Verlängerte Rathenaustr. 131 a, 12459 Berlin;Berlin;Friedh. Oberschöneweide, Verlängerte Rathenaustr. 131 a, 12459 Berlin;;12459;Deutschland;13,53482;52,46336;0;0;0,00;0;0;0;0;6;0;
+Fremd_172;Toilette Friedhof Adlershof, Friedlander Straße 156, 12489 Berlin;Berlin;Friedhof Adlershof, Friedlander Straße 156, 12489 Berlin;;12489;Deutschland;13,54731;52,44318;0;1;0,00;0;0;0;0;6;0;
+Fremd_173;Toilette Dörpfeldstr., 12849 Berlin;Berlin;Dörpfeldstr., 12849 Berlin;;12849;Deutschland;13,5481114664368;52,4379475873976;0;1;0,00;0;0;0;0;6;0;
+Fremd_174;Toilette Rathaus Alt - Köpenick 21,12555 Berlin;Berlin;Rathaus Alt - Köpenick 21,12555 Berlin;;12555;Deutschland;13,5748506027751;52,4457534249883;0;1;0,00;0;0;0;0;6;0;
+Fremd_175;Toilette Müggelheimer Str. 1, 12555 Berlin;Berlin;Müggelheimer Str. 1, 12555 Berlin;;12555;Deutschland;13,5749493222664;52,4440958254491;0;0;0,00;0;0;0;0;6;0;
+Fremd_176;Toilette Bürgerzentrum Grünau, Wassersportallee 34, 12527 Berlin;Berlin;Bürgerzentrum Grünau, Wassersportallee 34, 12527 Berlin;;12527;Deutschland;13,5782052839105;52,4157503816374;0;1;0,00;0;0;0;0;6;0;
+Fremd_177;Toilette Mittelpunktsbibliothek Alter Markt 2, 12555 Berlin;Berlin;Mittelpunktsbibliothek Alter Markt 2, 12555 Berlin;;12555;Deutschland;13,5845149097573;52,4466969723662;0;0;0,00;0;0;0;0;6;0;
+Fremd_178;Toilette Friedhof Grünau, Wartebereich;Berlin;Friedhof Grünau, Wartebereich;;12527 ;Deutschland;13,59039;52,40715;0;1;0,00;0;0;0;0;6;0;
+Fremd_179;Toilette Friedhof Grünau öffentlich, Rabindranath-Tagore-Straße 18-20, 12527 Berlin;Berlin;Friedhof Grünau öffentlich, Rabindranath-Tagore-Straße 18-20, 12527 Berlin;;12527;Deutschland;13,59041;52,40732;0;1;0,00;0;0;0;0;6;0;
+Fremd_18;Toilette Mariannenplatz;Berlin;Mariannenplatz;;10997;Deutschland;13,42465;52,5031;0;1;0,00;0;0;0;0;6;0;
+Fremd_180;Toilette Friedhof Müggelheim, Gosener Landstraße 1 / Im Jagen 127, 12559 Berlin;Berlin;Friedhof Müggelheim, Gosener Landstraße 1 / Im Jagen 127, 12559 Berlin;;12559;Deutschland;13,6750723498511;52,4066289464557;0;0;0,00;0;0;0;0;6;0;
+Fremd_181;Toilette Friedhof Rahnsdorf, Fürstenwalder Allee 93, 12589 Berlin;Berlin;Friedhof Rahnsdorf, Fürstenwalder Allee 93, 12589 Berlin;;12589;Deutschland;13,69588;52,43754;0;1;0,00;0;0;0;0;6;0;
+Fremd_19;Toilette Kleiner Tiergarten | Stromstraße;Berlin;Kleiner Tiergarten | Stromstraße;;10551;Deutschland;13,34312;52,52585;0;0;0,00;0;0;0;0;6;0;
+Fremd_2;Toilette Ehemaliger Garnisonfriedhof | Müllerstraße ;Berlin;Ehemaliger Garnisonfriedhof | Müllerstraße ;;13347;Deutschland;13,35924;52,54892;0;0;0,00;0;0;0;0;6;0;
+Fremd_3;Toilette Park am Gleisdreieck;Berlin;Park am Gleisdreieck;;10963;Deutschland;13,37306;52,49629;0;1;0,00;0;0;0;0;6;0;
+Fremd_4;Toilette Park am Gleisdreieck;Berlin;Park am Gleisdreieck;;10963;Deutschland;13,3769;52,49502;0;1;0,00;0;0;0;0;6;0;
+Fremd_5;Toilette Tempelhofer Feld;Berlin;Tempelhofer Feld;;12049;Deutschland;13,41755;52,47681;0;1;0,00;0;0;0;0;6;0;
+Fremd_6;Toilette Tempelhofer Feld;Berlin;Tempelhofer Feld;;12049;Deutschland;13,41766;52,47019;0;1;0,00;0;0;0;0;6;0;
+Fremd_7;Toilette Tempelhofer Feld;Berlin;Tempelhofer Feld;;12101;Deutschland;13,38677;52,4713;0;1;0,00;0;0;0;0;6;0;
+Fremd_8;Toilette Tempelhofer Feld;Berlin;Tempelhofer Feld;;10965;Deutschland;13,40995;52,4794;0;1;0,00;0;0;0;0;6;0;
+Fremd_9;Toilette Tempelhofer Feld;Berlin;Tempelhofer Feld;;10965;Deutschland;13,40423;52,4817;0;0;0,00;0;0;0;0;6;0;
