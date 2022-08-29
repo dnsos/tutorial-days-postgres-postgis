@@ -88,7 +88,7 @@ Then, we can get detailed information about the available tables via:
 
 ## Importing the data
 
-The original dataset comes in an XLSX format. In order to make importing it a bit easier, I have exported the file to a [CSV](/assets/data/berliner-toiletten-standorte.csv) that is more compatible for import into a PostgreSQL database. 
+The original dataset comes in an XLSX format. In order to make importing it a bit easier, I have exported the file to a [CSV](/assets/data/berliner-toiletten-standorte.csv) that is more compatible for import into a PostgreSQL database.
 
 > I have had to make one manual change because the file still had a first row with just the information about the updated-at date, which makes machine-readability harder -> the first row should usually be a header row.
 
@@ -101,6 +101,10 @@ That's why we can't simply use the [`COPY` statement](https://www.postgresql.org
 What we'll do it is create a [temporary table](https://www.postgresql.org/docs/14/sql-createtable.html) into which we will copy the CSV contents pretty much as-is. We will then use this temporary table to populate the other tables.
 
 Follow the next steps in [`02-import-data.sql`](/sql/02-import-data.sql).
+
+After executing all the SQL, we've got the data successfully imported:
+
+![Zoomed-out map of Berlin's public toilets](/assets/images/berlin_toilets_map.png)
 
 ---
 
