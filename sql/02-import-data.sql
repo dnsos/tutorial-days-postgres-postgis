@@ -141,3 +141,7 @@ SELECT
 	(SELECT id FROM payment_methods WHERE name = 'Berliner Toiletten-App')
 FROM toilets_temp
 WHERE toilets_temp."canBePayedInApp" = 1;
+
+-- Lastly, we drop the temporary table because we imported all the data into the correct tables:
+
+DROP TABLE toilets_temp;
