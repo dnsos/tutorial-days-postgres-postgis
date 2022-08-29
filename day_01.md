@@ -114,4 +114,4 @@ After executing all the SQL, we've got the data successfully imported:
 
 - [x] setup database (+ install Postgis)
 - [x] import file (and split information into respective tables)
-- [ ] add indexes? Where is it necessary? Where does it make sense?
+- [x] add indexes? Where is it necessary? Where does it make sense?
