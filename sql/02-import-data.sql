@@ -91,3 +91,30 @@ ALTER TABLE toilets
 ALTER COLUMN postal_code TYPE VARCHAR(10);
 
 -- After changing that the query should run successfully.
+
+-- Now we insert the toilet features. First, the accessibility feature:
+
+INSERT INTO toilet_features (toilet_id, feature_id)
+SELECT
+	(SELECT id FROM toilets WHERE toilets.wall_id = toilets_temp."LavatoryID"),
+	(SELECT id FROM features WHERE name = 'Barrierefrei')
+FROM toilets_temp
+WHERE toilets_temp."isHandicappedAccessible" = 1;
+
+-- Then, the Wickeltisch feature:
+
+INSERT INTO toilet_features (toilet_id, feature_id)
+SELECT
+	(SELECT id FROM toilets WHERE toilets.wall_id = toilets_temp."LavatoryID"),
+	(SELECT id FROM features WHERE name = 'Wickeltisch')
+FROM toilets_temp
+WHERE toilets_temp."hasChangingTable" = 1;
+
+-- Lastly, the Urinal feature:
+
+INSERT INTO toilet_features (toilet_id, feature_id)
+SELECT
+	(SELECT id FROM toilets WHERE toilets.wall_id = toilets_temp."LavatoryID"),
+	(SELECT id FROM features WHERE name = 'Urinal')
+FROM toilets_temp
+WHERE toilets_temp."hasUrinal" = 1;
