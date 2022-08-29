@@ -64,3 +64,30 @@ VALUES ('Barrierefrei', 'Barrierefreier Zugang, z.B. für Rollstuflfahrer*innen'
 
 INSERT INTO payment_methods (name)
 VALUES ('Münzen'), ('Scheine'), ('Berliner Toiletten-App'), ('NFC'), ('Kreditkarte'), ('EC-Karte');
+
+-- And then, we can finally import the toilets:
+
+INSERT INTO toilets (wall_id, description, city, address, postal_code, geometry, price, toilet_owner_id)
+SELECT 
+  -- We trim the VARCHAR rows in order to remove potential trailing whitespace:
+	TRIM(toilets_temp."LavatoryID"),
+	TRIM(toilets_temp."Description"),
+	TRIM(toilets_temp."City"),
+	TRIM(toilets_temp."Street"),
+	TRIM(toilets_temp."PostalCode"),
+  -- We use PostGIS functions to construct the geometry from latitude & longitude
+  -- Note that we had to replace the comma with a dot because the original data uses a comma as the decimal separator (-> Germany)
+	ST_SetSRID(ST_MakePoint(REPLACE(toilets_temp."Longitude", ',', '.')::DECIMAL, REPLACE(toilets_temp."Latitude", ',', '.')::DECIMAL),4326),
+	REPLACE(toilets_temp."Price", ',', '.')::REAL,
+  -- We check if it is owned by Wall and assign the appropriate ID's (in this case 2 or 3)
+	CASE WHEN toilets_temp."isOwnedByWall" = 1 THEN 2 ELSE 3 END
+FROM toilets_temp;
+
+-- There is one weird issue I couldn't exactly figure out.
+-- When importing with the previous query there was a recurrent error that the VARCHAR(5) restriction is violated.
+-- So, for now I have just changed this via:
+
+ALTER TABLE toilets
+ALTER COLUMN postal_code TYPE VARCHAR(10);
+
+-- After changing that the query should run successfully.
