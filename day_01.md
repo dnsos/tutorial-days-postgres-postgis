@@ -130,10 +130,20 @@ Or simply the owner of a toilet:
 SELECT toilets.description, toilets.address, toilet_owners.name FROM toilets JOIN toilet_owners ON toilet_owners.id = toilets.toilet_owner_id WHERE toilets.id = 1432;
 ```
 
----
+## Data migration: Berlin's pilot project of making 50 toilets free of charge
 
-## Open to-do's
+### Context
 
-- [x] setup database (+ install Postgis)
-- [x] import file (and split information into respective tables)
-- [x] add indexes? Where is it necessary? Where does it make sense?
+In July 2022, [the city of Berlin has announced](https://www.berlin.de/sen/uvk/verkehr/infrastruktur/oeffentliche-toiletten/) that, as part of an experimental concept, 50 of Berlin's public toilets would become free of charge for a limited amount of time. Additionally, payment in the remaining public toilets will only be possible digitally. This makes it impossible to pay for the toilets with cash.
+
+As an excercise I want to migrate my database, so that at least the price for the now-free toilets is updated. (If there is time, I'm going to update the payment methods as well.)
+
+The city has released [an XLSX file with the 50 toilets that are part of the project](https://www.berlin.de/sen/uvk/verkehr/infrastruktur/oeffentliche-toiletten/download/). It's not directly possible to connect the toilets from this dataset to the original dataset of all toilets (mostly because of a lack of an ID column in the 50 toilet dataset.)
+
+But, the _Standort_ column actually contains the content that we have imported into our `address` column. Unfortunately, they have appended text such as "hinter Mittelweg" or "ggü. Schöneicher Str.". This helps humans contextualize the location, but makes it less machine-processable. It's now harder for us to connect the toilet to our own `toilets` table.
+
+Let's see if we can manage the update anyway!
+
+### Migration
+
+...
