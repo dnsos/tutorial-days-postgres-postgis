@@ -8,6 +8,8 @@ In order to make the tutorial days a bit more challenging, I decided to split th
 
 > _Learning_: in order to establish a many-to-many relationship, we need an extra association table.
 
+> _Question_: what is a good tool for creating database schemas? I've tried DrawSQL for the first time and it felf very intuitive from the first moment. It is a commercial product, however. Are there open source solutions that offer a good UX?
+
 ---
 
 ## Open to-do's
