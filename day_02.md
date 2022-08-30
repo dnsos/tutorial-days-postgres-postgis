@@ -24,6 +24,8 @@ Here are some questions I would like to answer using PostGIS:
 
 > Thinking about these exercises and going through the PostGIS examples, I am realizing that I need more tables with spatial data, so that the exercises become more interesting.
 
+In order to make some more interesting queries, we are first going to import some more data. I chose to use part of the [LOR data of Berlin](https://daten.odis-berlin.de/de/dataset/lor_planungsgraeume_2021/) (for no particular reason, just to have some polygons in my PostGIS database.) The data is available as a GeoJSON, so this will be another challenge: How can we import data from a GeoJSOn into a PostGIS table?
+
 ### How many toilets can be found in a 1km radius around place x (e.g. Alexanderplatz)?
 
 ...
