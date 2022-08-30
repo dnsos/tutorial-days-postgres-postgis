@@ -91,17 +91,18 @@ Also intersting that the south-western LORs have high toilet counts as well.
 
 > Notice that this is a rather expensive query and takes a while to complete. Is there a way that we can speed this up (e.g. with an index)?
 
-This changes the projection to 4326.
+Interestingly, calculating the area for a LOR _almost_ matches the `groesse_m2` number. I wonder where this difference is coming from?
+
+```sql
+SELECT groesse_m2, ST_Area(wkb_geometry) FROM lors LIMIT 1;
+-- 2294021.723  2292754.92056915
+```
 
 ### How many toilets can be found in a 1km radius around place x (e.g. Alexanderplatz)?
 
 ...
 
 #### Not PostGIS-related but: How can I filter deeper? Say I want only toilets with a certain payment method or a certain feature?
-
-...
-
-### Which Berlin district has the highest density of toilets (relative to the size)?
 
 ...
 
