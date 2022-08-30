@@ -56,11 +56,13 @@ SELECT ST_SRID(wkb_geometry) FROM lors LIMIT 1;
 -- Returns: 25833
 ```
 
-Or LOR data does not use the same projection as our toilet data. How can we deal with that issue?
+Our LOR data does not use the same projection as our toilet data. How can we deal with that issue?
 
 Actually PostGIS gives us a [`ST_Transform` function](https://postgis.net/docs/ST_Transform.html) which allows us to transform a geometry from one projection to the other.
 
-We are not gonna touch the original projection in the `lors` table, instead we're going to transform the projection on the fly:
+We are not gonna touch the original projection in the `lors` table, instead we're going to transform the projection on the fly...
+
+### Finding the LOR with the highest toilet count
 
 ```sql
 -- Note that I'm using ST_Transform here so that pgAdmin is able to map the results onto their standard 4326 projection map
@@ -98,6 +100,27 @@ SELECT groesse_m2, ST_Area(wkb_geometry) FROM lors LIMIT 1;
 -- 2294021.723  2292754.92056915
 ```
 
+### Returning a GeoJSON representation of our query results
+
+It might be interesting to work with the query result of the LORs with the highest toilet count outside of SQL. For that we can use the [`ST_AsGeoJSON` function](https://postgis.net/docs/ST_AsGeoJSON.html).
+
+```sql
+SELECT json_build_object(
+    'type', 'FeatureCollection',
+    'features', json_agg(ST_AsGeoJSON(t.*)::json)
+    )
+FROM (
+	SELECT lors.plr_name, COUNT(toilets.*), ST_Transform(lors.wkb_geometry,4326)
+	FROM lors
+	JOIN toilets ON ST_Contains(ST_Transform(lors.wkb_geometry,4326), toilets.geometry::geometry)
+	GROUP BY lors.plr_name, lors.wkb_geometry
+	ORDER BY COUNT(toilets.*) DESC
+	LIMIT 10
+     ) as t(name, toilet_count, geom);
+```
+
+Note that we simply wrap our previous query inside another query that makes sure that we build a JSON object.
+
 ### How many toilets can be found in a 1km radius around place x (e.g. Alexanderplatz)?
 
 ...
@@ -106,12 +129,9 @@ SELECT groesse_m2, ST_Area(wkb_geometry) FROM lors LIMIT 1;
 
 ...
 
-### How can I return a GeoJSON representation of my PostGIS records?
-
-...
-
 ## Ideas for today
 
 - [ ] ~~data migration of free-of-charge toilets~~ (skipped for now)
 - [x] understand [app-driven vs. database-driven schemas](https://databaseci.com/docs/migra/deploy-usage)
 - [ ] explore different PostGIS queries
+- [ ] speed up query by using a PostGIS spatial index?
