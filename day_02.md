@@ -42,6 +42,57 @@ ogr2ogr -f "PostgreSQL" PG:"dbname=berlin_toilets_app user=<me>" /path/to/repo/a
 
 Now, this imported the data with some not-so-ideal column names, but for the purpose of this exploration I'm going to ignore this. (The type detection by the _ogr2ogr_ is great, by the way.)
 
+### The challenge of different projections
+
+PostGIS has a great [documentation on the different types of map projections](https://postgis.net/workshops/postgis-intro/projection.html). If we inspect our spatial data, we will notice an issue with our projection(s):
+
+```sql
+SELECT ST_SRID(geometry) FROM toilets LIMIT 1;
+-- Returns: 4326
+```
+
+```sql
+SELECT ST_SRID(wkb_geometry) FROM lors LIMIT 1;
+-- Returns: 25833
+```
+
+Or LOR data does not use the same projection as our toilet data. How can we deal with that issue?
+
+Actually PostGIS gives us a [`ST_Transform` function](https://postgis.net/docs/ST_Transform.html) which allows us to transform a geometry from one projection to the other.
+
+We are not gonna touch the original projection in the `lors` table, instead we're going to transform the projection on the fly:
+
+```sql
+-- Note that I'm using ST_Transform here so that pgAdmin is able to map the results onto their standard 4326 projection map
+SELECT lors.plr_name, COUNT(toilets.*), ST_Transform(lors.wkb_geometry,4326)
+FROM lors
+JOIN toilets ON ST_Contains(ST_Transform(lors.wkb_geometry,4326), toilets.geometry::geometry)
+GROUP BY lors.plr_name, lors.wkb_geometry
+ORDER BY COUNT(toilets.*) DESC
+LIMIT 10;
+
+-- "Olympiagelände"          13
+-- "Großer Tiergarten"        6
+-- "Krumme Lanke"             5
+-- "Carl-Schurz-Straße"       5
+-- "Nikolassee"               5
+-- "Wannsee"                  5
+-- "Reichenberger Straße Ost" 5
+-- "Alt-Tegel"                5
+-- "Barnimkiez"               4
+-- "Grünau"                   4
+```
+
+![Berlin LOR's with the highest toilet counts](/assets/images/lor_toilet_density_map.png)
+
+With this query we can see that the LOR _Olympiagelände_ has by far the most toilets.
+
+Also intersting that the south-western LORs have high toilet counts as well.
+
+> Notice that this is a rather expensive query and takes a while to complete. Is there a way that we can speed this up (e.g. with an index)?
+
+This changes the projection to 4326.
+
 ### How many toilets can be found in a 1km radius around place x (e.g. Alexanderplatz)?
 
 ...
