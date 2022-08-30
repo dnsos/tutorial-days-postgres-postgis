@@ -24,7 +24,23 @@ Here are some questions I would like to answer using PostGIS:
 
 > Thinking about these exercises and going through the PostGIS examples, I am realizing that I need more tables with spatial data, so that the exercises become more interesting.
 
-In order to make some more interesting queries, we are first going to import some more data. I chose to use part of the [LOR data of Berlin](https://daten.odis-berlin.de/de/dataset/lor_planungsgraeume_2021/) (for no particular reason, just to have some polygons in my PostGIS database.) The data is available as a GeoJSON, so this will be another challenge: How can we import data from a GeoJSOn into a PostGIS table?
+In order to make some more interesting queries, we are first going to import some more data. I chose to use part of the [LOR data of Berlin](https://daten.odis-berlin.de/de/dataset/lor_planungsgraeume_2021/) (for compliance with the CC-BY-3.0 licence: The data originates from _Amt für Statistik Berlin-Brandenburg_). I have chosen this dataset for no particular reason, it's just to have some polygons in my PostGIS database. The data is available as a GeoJSON, so this will be another challenge: How can we import data from a GeoJSON into a PostGIS table?
+
+### Importing the LOR GeoJSON
+
+Okay, I thought this would be harder. It's not!
+
+There is a command line tool called [ogr2ogr](https://gdal.org/programs/ogr2ogr.html) which (if run on the same server as the PostGIS database) is able to seamlessly import a GeoJSON file into a PostGIS table.
+
+I have used the following query to import the file's contents:
+
+```bash
+ogr2ogr -f "PostgreSQL" PG:"dbname=berlin_toilets_app user=<me>" /path/to/repo/assets/data/lor_planungsraeume_2021.geojson -nln lors
+```
+
+> `-nln` is the table name that should be created for the data.
+
+Now, this imported the data with some not-so-ideal column names, but for the purpose of this exploration I'm going to ignore this. (The type detection by the _ogr2ogr_ is great, by the way.)
 
 ### How many toilets can be found in a 1km radius around place x (e.g. Alexanderplatz)?
 
