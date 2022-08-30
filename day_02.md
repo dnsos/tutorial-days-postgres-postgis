@@ -121,17 +121,6 @@ FROM (
 
 Note that we simply wrap our previous query inside another query that makes sure that we build a JSON object.
 
-### How many toilets can be found in a 1km radius around place x (e.g. Alexanderplatz)?
+---
 
-...
-
-#### Not PostGIS-related but: How can I filter deeper? Say I want only toilets with a certain payment method or a certain feature?
-
-...
-
-## Ideas for today
-
-- [ ] ~~data migration of free-of-charge toilets~~ (skipped for now)
-- [x] understand [app-driven vs. database-driven schemas](https://databaseci.com/docs/migra/deploy-usage)
-- [ ] explore different PostGIS queries
-- [ ] speed up query by using a PostGIS spatial index?
+> We continue on day 3.
