@@ -16,6 +16,29 @@ A, for me, typical application would be a [Rails](https://rubyonrails.org/) app 
 
 > Another interesting tool for handling schemas is the built-in [Schema Diff tool of pgAdmin](https://www.pgadmin.org/docs/pgadmin4/development/schema_diff.html).
 
+## PostGIS exercises
+
+Next, we want to take a look at the capabilities of PostGIS. PostGIS's website has a nice [section of spatial exercises that demonstrates different functions](https://postgis.net/workshops/postgis-intro/geometries_exercises.html). For the next part I will take inspiration from there.
+
+Here are some questions I would like to answer using PostGIS:
+
+> Thinking about these exercises and going through the PostGIS examples, I am realizing that I need more tables with spatial data, so that the exercises become more interesting.
+
+### How many toilets can be found in a 1km radius around place x (e.g. Alexanderplatz)?
+
+...
+
+#### Not PostGIS-related but: How can I filter deeper? Say I want only toilets with a certain payment method or a certain feature?
+
+...
+
+### Which Berlin district has the highest density of toilets (relative to the size)?
+
+...
+
+### How can I return a GeoJSON representation of my PostGIS records?
+
+...
 
 ## Ideas for today
 
