@@ -28,10 +28,10 @@ FROM toilets
 -- We join the toilets.id on the toilet_id of our feature aggregation list (toilets_feature_list):
 JOIN (
   -- This inner query is the same as the one above:
-	SELECT toilet_features.toilet_id, array_agg(features.name) AS features
-	FROM toilet_features
-	JOIN features ON features.id = toilet_features.feature_id
-	GROUP BY toilet_features.toilet_id
+  SELECT toilet_features.toilet_id, array_agg(features.name) AS features
+  FROM toilet_features
+  JOIN features ON features.id = toilet_features.feature_id
+  GROUP BY toilet_features.toilet_id
 -- The alias is important here, so that we can make use of the results in the outer SELECT (toilets_feature_list.features):
 ) AS toilets_feature_list ON toilets_feature_list.toilet_id = toilets.id;
 ```
@@ -45,10 +45,10 @@ SELECT toilets.id, toilets.address, toilets_feature_list.features, toilets.geome
 FROM toilets
 JOIN (
   -- We added the ORDER BY here, so that later we can query for an array of features that we have sorted alphabetically:
-	SELECT toilet_features.toilet_id, array_agg(features.name ORDER BY features.name) AS features
-	FROM toilet_features
-	JOIN features ON features.id = toilet_features.feature_id
-	GROUP BY toilet_features.toilet_id
+  SELECT toilet_features.toilet_id, array_agg(features.name ORDER BY features.name) AS features
+  FROM toilet_features
+  JOIN features ON features.id = toilet_features.feature_id
+  GROUP BY toilet_features.toilet_id
 ) AS toilets_feature_list ON toilets_feature_list.toilet_id = toilets.id
   -- The important part is this JOIN matcher.
   -- We have to cast the features list to a text array, because otherwise PostgreSQL doesn't know what it's dealing with.
