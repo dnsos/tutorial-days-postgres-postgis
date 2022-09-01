@@ -45,15 +45,16 @@ JOIN (
   -- We added the ORDER BY here, so that later we can query for an array of features that we have sorted alphabetically:
   SELECT toilet_features.toilet_id, array_agg(features.name ORDER BY features.name) AS features
   FROM toilet_features
-  JOIN features ON features.id = toilet_features.feature_id
+  JOIN features
+    ON features.id = toilet_features.feature_id
   GROUP BY toilet_features.toilet_id
-) AS toilets_feature_list ON toilets_feature_list.toilet_id = toilets.id
-  -- The important part is this JOIN matcher.
-  -- We have to cast the features list to a text array, because otherwise PostgreSQL doesn't know what it's dealing with.
-  -- We then need to compare the array of features with an array of our desired features.
-  -- Note that for PostgreSQL an array is equal when it's contents are equal.
-  -- This is not ideal, because it relies on the order (alphabetical) of desired features that we pass.
-  -- E.g. searching for ARRAY['Urinal','Wickeltisch'] will not yield any results.
-  AND toilets_feature_list.features::TEXT[] = ARRAY['Barrierefrei','Urinal','Wickeltisch'];
+) AS toilets_feature_list
+    ON toilets_feature_list.toilet_id = toilets.id
+    -- The important part is this JOIN matcher.
+    -- We have to cast the features list to a text array, because otherwise PostgreSQL doesn't know what it's dealing with.
+    -- We then need to compare the array of features with an array of our desired features.
+    -- Note that for PostgreSQL an array is equal when it's contents are equal.
+    -- This is not ideal, because it relies on the order (alphabetical) of desired features that we pass.
+    -- E.g. searching for ARRAY['Urinal','Wickeltisch'] will not yield any results.
+    AND toilets_feature_list.features::TEXT[] = ARRAY['Barrierefrei','Urinal','Wickeltisch'];
 ```
-
