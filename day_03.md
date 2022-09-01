@@ -37,19 +37,27 @@ CREATE INDEX lors_geometry_idx
 
 With this index in place, the query takes only about 60 ms to complete, almost half of the previous time!
 
-We could improve this even more by creating an index on `toilets.geometry` as well. But for this we would have to remove th casting in the JOIN (`toilets.geometry::geometry`), otherwise the index would never be used.
+We could improve this even more by creating an index on `toilets.geometry` as well. But for this we would have to remove th casting in the JOIN (`toilets.geometry::geometry`), otherwise the index would never be used. Something for later, maybe.
 
 ## More PostGIS queries
 
 ### How many toilets can be found in a 1km radius around place x (e.g. Alexanderplatz)?
 
-...
+Finding all toilets around Alexanderplatz is simple:
 
-#### Not PostGIS-related but: How can I filter deeper? Say I want only toilets with a certain payment method or a certain feature?
+```sql
+-- We have to create a buffer around our location. The second argument of ST_Buffer is the radius (in meters) around the point.
+-- We have to do a lot of casting between geography and geometry because some functions in PostGIS only accept one or the other.
+SELECT *
+FROM toilets
+WHERE ST_Contains(ST_Buffer(
+	ST_MakePoint(13.412775, 52.521978)::geography,
+	1000, 'quad_segs=8')::geometry, geometry::geometry);
+```
 
-...
+![Toilets found in a km radius of the fountain in Alexanderplatz](/assets/images/toilets_around_alex.png)
 
-## Ideas for today
+---
 
-- [ ] explore **more** different PostGIS queries
-- [ ] speed up query by using a PostGIS spatial index?
+> Continuing on day 4.
+> 
