@@ -58,3 +58,63 @@ JOIN (
     -- E.g. searching for ARRAY['Urinal','Wickeltisch'] will not yield any results.
     AND toilets_feature_list.features::TEXT[] = ARRAY['Barrierefrei','Urinal','Wickeltisch'];
 ```
+
+**Oookay, the above queries have a flaw.** They check if the feature arrays are equal. However we want to check if the `toilets_feature_list.features` array contains our constructed array of e.g. `ARRAY['Barrierefrei','Wickeltisch']`. `toilets_feature_list.features` may have more features than what we have queried for, as long as our queried features are contained, we want to see that result anyways.
+
+We can use the "contains operator" for that. I haven't found documentation besides StackOverflow, so I can not link to the docs. Basically the operator works like this:
+
+```sql
+ARRAY['array','with','required','values','and','maybe','more'] @> ARRAY['array','with','required','values']
+```
+
+If the right-side array is contained in the left-side array (no matter the order), we get `TRUE`.
+
+We can now fix our query and additionally add the possibility to query for payment methods as well:
+
+```sql
+SELECT toilets.id, toilets.address, toilets_feature_list.features, toilets.geometry, tpm.payment_methods
+FROM toilets
+-- First JOIN with toilet_id + feature array:
+JOIN (
+  SELECT toilet_features.toilet_id, array_agg(features.name ORDER BY features.name) AS features
+  FROM toilet_features
+  JOIN features
+    ON features.id = toilet_features.feature_id
+  GROUP BY toilet_features.toilet_id
+) AS toilets_feature_list
+    ON toilets_feature_list.toilet_id = toilets.id
+    -- Match all rows that contain at least 'Barrierefrei' and 'Wickeltisch':
+    AND toilets_feature_list.features::TEXT[] @> ARRAY['Barrierefrei','Wickeltisch']
+-- Second JOIN with toilet_id + payment method array:
+JOIN (
+  SELECT toilet_payment_methods.toilet_id, array_agg(payment_methods.name ORDER BY payment_methods.name) AS payment_methods
+  FROM toilet_payment_methods
+  JOIN payment_methods
+    ON payment_methods.id = toilet_payment_methods.payment_method_id
+  GROUP BY toilet_payment_methods.toilet_id
+) AS tpm
+    ON tpm.toilet_id = toilets.id
+    -- Match all rows that contain at least 'NFC':
+    AND tpm.payment_methods::TEXT[] @> ARRAY['NFC'];
+```
+
+As a smaller, additional query, we could e.g. search which toilets provide a _Wickeltisch_ and are free-of-charge:
+
+```sql
+SELECT toilets.id, toilets.address, toilets_feature_list.features, toilets.geometry
+FROM toilets
+JOIN (
+  SELECT toilet_features.toilet_id, array_agg(features.name ORDER BY features.name) AS features
+  FROM toilet_features
+  JOIN features
+    ON features.id = toilet_features.feature_id
+  GROUP BY toilet_features.toilet_id
+) AS toilets_feature_list
+    ON toilets_feature_list.toilet_id = toilets.id
+    AND toilets_feature_list.features::TEXT[] @> ARRAY['Wickeltisch']
+WHERE toilets.price = 0;
+```
+
+**No toilets found**. If we increase the price threshold to e.g. 0.5, we start finding toilets.
+
+> Note that this does not take into account the pilot project of making 50 toilets free-of-charge. I haven't updated the price yet (see [Day 2](/day_02.md)).
