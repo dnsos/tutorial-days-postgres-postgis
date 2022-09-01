@@ -56,11 +56,6 @@ JOIN (
   -- Note that for PostgreSQL an array is equal when it's contents are equal.
   -- This is not ideal, because it relies on the order (alphabetical) of desired features that we pass.
   -- E.g. searching for ARRAY['Urinal','Wickeltisch'] will not yield any results.
-	AND toilets_feature_list.features::TEXT[] = ARRAY['Barrierefrei','Urinal','Wickeltisch'];
+  AND toilets_feature_list.features::TEXT[] = ARRAY['Barrierefrei','Urinal','Wickeltisch'];
 ```
 
-WIP query:
-
-```sql
-SELECT toilet_id, COUNT(*) FROM toilet_features GROUP BY toilet_id HAVING COUNT(*) >= 2 ORDER BY COUNT(*) DESC;
-```
