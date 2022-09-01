@@ -36,8 +36,6 @@ JOIN (
 ) AS toilets_feature_list ON toilets_feature_list.toilet_id = toilets.id;
 ```
 
-(I think this only includes toilets that have at leat one feature...)
-
 Okay, I've found a way to filter the previous query so that it only returns toilets that have a specific set of features:
 
 ```sql
