@@ -1,4 +1,4 @@
-# Day 4: More queries and ...
+# Day 4: More queries
 
 ## Refining the toilets-within-radius finder
 
