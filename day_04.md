@@ -118,3 +118,50 @@ WHERE toilets.price = 0;
 **No toilets found**. If we increase the price threshold to e.g. 0.5, we start finding toilets.
 
 > Note that this does not take into account the pilot project of making 50 toilets free-of-charge. I haven't updated the price yet (see [Day 2](/day_02.md)).
+
+## Getting back to the list of free toilets
+
+I want to taake another look at this. First I'll add the free toilet dataset to a regular table:
+
+```sql
+CREATE TABLE "free_toilets_of_pilot"(
+  "location" VARCHAR(255),
+  "district" VARCHAR(255),
+  "type" VARCHAR(255),
+  "opened_at" VARCHAR(255)
+);
+
+COPY "free_toilets_of_pilot"("location", "district", "type", "opened_at")
+FROM '/path/to/repo/assets/data/anlage_standorte-fuer-die-entgeltlose-benutzung-von-50-berliner-toiletten.csv'
+DELIMITER ';'
+CSV HEADER;
+```
+
+I would then use the `location` column to try to match it with the `toilets.address` column. This is tricky because both have (differing) additions to the actual address, most of the time.
+
+Some examples that I collected manually and that I would need to match programmatically:
+
+<table>
+  <thead>
+    <tr>
+      <th>Value in toilets dataset</th>
+      <th>Value in <i>free</i> toilets dataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>An der Wuhle ggü. 56 (0-24 Uhr)</td>
+      <td>An der Wuhle ggü. 56 vor Ulmenstr.</td>
+    </tr>
+    <tr>
+      <td>Elsterwerdaer Platz 1-3 (0-24 Uhr)</td>
+      <td>Elsterwerdaer Platz 1-3 vor U-Bahnhof Elsterwerdaer Platz</td>
+    </tr>
+    <tr>
+      <td>Mariannenplatz 2-3 (0-24 Uhr)</td>
+      <td>Mariannenplatz 2-3</td>
+    </tr>
+  </tbody>
+</table>
+
+Not sure how these can be matched.
